@@ -1,0 +1,41 @@
+// 奶蛋求生应用图标与版本信息
+// 在 MESA 项目中添加此文件；相对路径以 MESA 项目目录为基准
+// 以 UTF-8 解读中文；图标和版本信息由资源编译器嵌入 EXE。
+#pragma code_page(65001)
+#include <windows.h>
+
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+
+// ID 1 同时用于游戏窗口 LoadImageW 与 EXE 默认图标
+1 ICON "packaging\\game.ico"
+
+// 文件属性中的版本信息；ICON 与 VERSIONINFO 是不同资源类型，可共用编号 1。
+1 VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE 0
+BEGIN
+    // 文件属性详情显示的名称与版本，0804 为简体中文，04b0 为 Unicode 码页。
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "奶蛋求生"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "MESA"
+            VALUE "OriginalFilename", "奶蛋求生.exe"
+            VALUE "ProductName", "奶蛋求生"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    // 声明版本字符串的语言和码页，对应上面的 080404b0 字符串块。
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0804, 1200
+    END
+END
+
