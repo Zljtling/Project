@@ -1,0 +1,6367 @@
+{
+  "repository": "https://github.com/patch-gg/pixelfx",
+  "commit": "a84159688af3ca37a4be05a0d422b94451b2e24e",
+  "effects": [
+    {
+      "id": "arcane/arcane-beam",
+      "name": "Arcane beam",
+      "description": "A beam fires right from the hand: a white core, strands twisting round it, pulses running down it, a flaring source and an end that sprays sparks.",
+      "tags": [
+        "arcane",
+        "beam",
+        "laser",
+        "ray",
+        "magic",
+        "directional",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 36,
+      "size": [
+        264,
+        100
+      ],
+      "pivot": [
+        26,
+        84
+      ],
+      "resource": "res://assets/pixelfx/arcane/arcane-beam/arcane-beam.tres"
+    },
+    {
+      "id": "arcane/arcane-missiles",
+      "name": "Arcane missiles",
+      "description": "A volley of violet bolts fans out of the hand, curls round on twisting ribbons and pops on the target one after another.",
+      "tags": [
+        "arcane",
+        "missile",
+        "projectile",
+        "homing",
+        "volley",
+        "magic",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 54,
+      "size": [
+        240,
+        116
+      ],
+      "pivot": [
+        26,
+        88
+      ],
+      "resource": "res://assets/pixelfx/arcane/arcane-missiles/arcane-missiles.tres"
+    },
+    {
+      "id": "arcane/arcane-orb",
+      "name": "Arcane orb",
+      "description": "A floating orb of smoky violet glass with a swirl turning round a white-hot heart, two tilted rings of light orbiting behind and in front.",
+      "tags": [
+        "arcane",
+        "orb",
+        "sphere",
+        "magic",
+        "floating",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        136,
+        112
+      ],
+      "pivot": [
+        68,
+        104
+      ],
+      "resource": "res://assets/pixelfx/arcane/arcane-orb/arcane-orb.tres"
+    },
+    {
+      "id": "arcane/blink-in",
+      "name": "Blink in",
+      "description": "Glittering bits spiral in to a point of light that opens into a line, then into a white silhouette that cools into the caster.",
+      "tags": [
+        "arcane",
+        "blink",
+        "teleport",
+        "appear",
+        "movement",
+        "magic",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 43,
+      "size": [
+        136,
+        96
+      ],
+      "pivot": [
+        68,
+        80
+      ],
+      "resource": "res://assets/pixelfx/arcane/blink-in/blink-in.tres"
+    },
+    {
+      "id": "arcane/blink-out",
+      "name": "Blink out",
+      "description": "The caster crackles with gathering light, flashes white, squeezes into a line of light that collapses and pops away in sparks.",
+      "tags": [
+        "arcane",
+        "blink",
+        "teleport",
+        "vanish",
+        "movement",
+        "magic",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 49,
+      "size": [
+        136,
+        96
+      ],
+      "pivot": [
+        68,
+        80
+      ],
+      "resource": "res://assets/pixelfx/arcane/blink-out/blink-out.tres"
+    },
+    {
+      "id": "arcane/magic-circle-cast",
+      "name": "Magic circle cast",
+      "description": "A circle draws itself on the floor, runes ignite one by one, it flashes, and a column of light fires up and breaks apart into glints.",
+      "tags": [
+        "arcane",
+        "magic",
+        "circle",
+        "rune",
+        "cast",
+        "column",
+        "summon",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 118,
+      "size": [
+        200,
+        220
+      ],
+      "pivot": [
+        100,
+        192
+      ],
+      "resource": "res://assets/pixelfx/arcane/magic-circle-cast/magic-circle-cast.tres"
+    },
+    {
+      "id": "arcane/mana-burst",
+      "name": "Mana burst",
+      "description": "Energy rushes into a point and blows out in a white flash and rings, flinging glowing runes that flare and pop into sparks one after another.",
+      "tags": [
+        "arcane",
+        "burst",
+        "mana",
+        "rune",
+        "nova",
+        "magic",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 55,
+      "size": [
+        208,
+        150
+      ],
+      "pivot": [
+        104,
+        124
+      ],
+      "resource": "res://assets/pixelfx/arcane/mana-burst/mana-burst.tres"
+    },
+    {
+      "id": "arcane/portal",
+      "name": "Portal",
+      "description": "An upright rift: fibrous spiral arms wind down into the dark, a lit rim wobbles, motes and streaks are pulled in, the floor glows.",
+      "tags": [
+        "arcane",
+        "portal",
+        "rift",
+        "teleport",
+        "magic",
+        "ground",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        152,
+        116
+      ],
+      "pivot": [
+        76,
+        106
+      ],
+      "resource": "res://assets/pixelfx/arcane/portal/portal.tres"
+    },
+    {
+      "id": "arcane/rune-circle",
+      "name": "Rune circle",
+      "description": "A rune circle turns on the floor in perspective: a carousel of runes lit by chasing light, a turning square, ticks, motes rising off it.",
+      "tags": [
+        "arcane",
+        "rune",
+        "circle",
+        "magic",
+        "aura",
+        "ground",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 120,
+      "size": [
+        136,
+        100
+      ],
+      "pivot": [
+        68,
+        80
+      ],
+      "resource": "res://assets/pixelfx/arcane/rune-circle/rune-circle.tres"
+    },
+    {
+      "id": "arcane/spell-charge",
+      "name": "Spell charge",
+      "description": "Energy gathers in the caster's hand: streaks and motes spiral in, rings collapse into a swelling orb that crackles with arcs, ready to fire.",
+      "tags": [
+        "arcane",
+        "charge",
+        "spell",
+        "orb",
+        "cast",
+        "magic",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 48,
+      "size": [
+        120,
+        86
+      ],
+      "pivot": [
+        44,
+        80
+      ],
+      "resource": "res://assets/pixelfx/arcane/spell-charge/spell-charge.tres"
+    },
+    {
+      "id": "arcane/star-fall",
+      "name": "Star fall",
+      "description": "Stars streak down on long trails across an area, each landing with a white flash, a ring across the floor and a kick of sparks.",
+      "tags": [
+        "arcane",
+        "star",
+        "meteor",
+        "rain",
+        "aoe",
+        "magic",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 76,
+      "size": [
+        232,
+        172
+      ],
+      "pivot": [
+        124,
+        150
+      ],
+      "resource": "res://assets/pixelfx/arcane/star-fall/star-fall.tres"
+    },
+    {
+      "id": "arcane/time-stop",
+      "name": "Time stop",
+      "description": "A clock face springs open, ticks slower and slower, freezes drained of colour, cracks, then shatters into falling shards.",
+      "tags": [
+        "arcane",
+        "time",
+        "clock",
+        "freeze",
+        "stop",
+        "shatter",
+        "magic",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 109,
+      "size": [
+        196,
+        136
+      ],
+      "pivot": [
+        98,
+        118
+      ],
+      "resource": "res://assets/pixelfx/arcane/time-stop/time-stop.tres"
+    },
+    {
+      "id": "critters/bat",
+      "name": "Bat",
+      "description": "A bat flaps in four snappy wing frames along a figure-eight, its body lifting on each downbeat, moonlight on its wing bones, red eyes glowing and glinting.",
+      "tags": [
+        "critter",
+        "bat",
+        "night",
+        "flying",
+        "spooky",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        112,
+        80
+      ],
+      "pivot": [
+        56,
+        40
+      ],
+      "resource": "res://assets/pixelfx/critters/bat/bat.tres"
+    },
+    {
+      "id": "critters/bird",
+      "name": "Bird",
+      "description": "A songbird flies in place: bursts of wingbeats that lift its body on each downstroke, a glide on spread wings, its tail fanning, a loose feather drifting away.",
+      "tags": [
+        "critter",
+        "bird",
+        "flying",
+        "animal",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        112,
+        80
+      ],
+      "pivot": [
+        56,
+        40
+      ],
+      "resource": "res://assets/pixelfx/critters/bird/bird.tres"
+    },
+    {
+      "id": "critters/butterfly",
+      "name": "Butterfly",
+      "description": "An iridescent butterfly wanders a loop in bursts of quick wingbeats and open-winged glides, its veined, spotted wings shedding a twinkling trail of glowing dust.",
+      "tags": [
+        "critter",
+        "butterfly",
+        "insect",
+        "flying",
+        "magic",
+        "glow",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 96,
+      "size": [
+        128,
+        88
+      ],
+      "pivot": [
+        64,
+        44
+      ],
+      "resource": "res://assets/pixelfx/critters/butterfly/butterfly.tres"
+    },
+    {
+      "id": "critters/eyeball",
+      "name": "Eyeball",
+      "description": "A bloodshot eyeball floats in its fleshy lids: its glowing iris snaps from one look to the next, it blinks, and its nerve sways behind it as it bobs.",
+      "tags": [
+        "critter",
+        "eyeball",
+        "eye",
+        "monster",
+        "spooky",
+        "float",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 96,
+      "size": [
+        96,
+        108
+      ],
+      "pivot": [
+        48,
+        100
+      ],
+      "resource": "res://assets/pixelfx/critters/eyeball/eyeball.tres"
+    },
+    {
+      "id": "critters/fish-school",
+      "name": "Fish school",
+      "description": "A school of fish holds station in two depth rows: bodies wag into swinging tails, one darts ahead now and then, bubbles rise and caustic light ripples over them.",
+      "tags": [
+        "critter",
+        "fish",
+        "school",
+        "sea",
+        "underwater",
+        "swim",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 144,
+      "size": [
+        136,
+        80
+      ],
+      "pivot": [
+        68,
+        40
+      ],
+      "resource": "res://assets/pixelfx/critters/fish-school/fish-school.tres"
+    },
+    {
+      "id": "critters/flying-skull",
+      "name": "Flying skull",
+      "description": "A cracked bone skull bobs in the air, jaw chattering, eyes burning, a fire roaring off its crown that sheds flame puffs, embers and smoke and throws warm light.",
+      "tags": [
+        "critter",
+        "skull",
+        "undead",
+        "fire",
+        "flying",
+        "monster",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        96,
+        132
+      ],
+      "pivot": [
+        48,
+        120
+      ],
+      "resource": "res://assets/pixelfx/critters/flying-skull/flying-skull.tres"
+    },
+    {
+      "id": "critters/frog",
+      "name": "Frog",
+      "description": "A frog puffs its throat, blinks, crouches and leaps to snap a buzzing fly out of the air, then lands with a squash and a puff of dust, gulps and settles.",
+      "tags": [
+        "critter",
+        "frog",
+        "animal",
+        "hop",
+        "ground",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 78,
+      "size": [
+        112,
+        88
+      ],
+      "pivot": [
+        56,
+        80
+      ],
+      "resource": "res://assets/pixelfx/critters/frog/frog.tres"
+    },
+    {
+      "id": "critters/ghost",
+      "name": "Ghost",
+      "description": "A sheet ghost bobs over the floor: its scalloped hem ripples and trails its drift, little arms flutter, it glances about and blinks, motes trickle off its hem.",
+      "tags": [
+        "critter",
+        "ghost",
+        "spirit",
+        "undead",
+        "spooky",
+        "float",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        96,
+        100
+      ],
+      "pivot": [
+        48,
+        90
+      ],
+      "resource": "res://assets/pixelfx/critters/ghost/ghost.tres"
+    },
+    {
+      "id": "critters/jellyfish",
+      "name": "Jellyfish",
+      "description": "A see-through jellyfish pulses: its bell squeezes to shove it up and relaxes as it sinks, frilled arms and long tentacles trailing, a glow inside, bubbles drifting by.",
+      "tags": [
+        "critter",
+        "jellyfish",
+        "sea",
+        "underwater",
+        "glow",
+        "swim",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 96,
+      "size": [
+        96,
+        120
+      ],
+      "pivot": [
+        48,
+        38
+      ],
+      "resource": "res://assets/pixelfx/critters/jellyfish/jellyfish.tres"
+    },
+    {
+      "id": "critters/slime",
+      "name": "Slime",
+      "description": "A glossy slime hops in place: it squashes to wind up, stretches into the jump, rounds out in the air, splats down flinging droplets that creep back, then wobbles and blinks.",
+      "tags": [
+        "critter",
+        "slime",
+        "monster",
+        "hop",
+        "goo",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 54,
+      "size": [
+        112,
+        88
+      ],
+      "pivot": [
+        56,
+        72
+      ],
+      "resource": "res://assets/pixelfx/critters/slime/slime.tres"
+    },
+    {
+      "id": "critters/snake",
+      "name": "Snake",
+      "description": "A snake slithers along the floor, head raised: humps rise and roll back down its patterned body to the tail, dust puffs where it touches down, its forked tongue flicks.",
+      "tags": [
+        "critter",
+        "snake",
+        "reptile",
+        "ground",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        136,
+        56
+      ],
+      "pivot": [
+        68,
+        48
+      ],
+      "resource": "res://assets/pixelfx/critters/snake/snake.tres"
+    },
+    {
+      "id": "critters/wisp",
+      "name": "Wisp",
+      "description": "A will-o'-the-wisp loops a figure-eight over the floor: a little soul-flame with a face, its flame tail licking up and streaming behind, shedding puffs and sparks.",
+      "tags": [
+        "critter",
+        "wisp",
+        "spirit",
+        "flame",
+        "magic",
+        "flying",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 96,
+      "size": [
+        128,
+        104
+      ],
+      "pivot": [
+        64,
+        96
+      ],
+      "resource": "res://assets/pixelfx/critters/wisp/wisp.tres"
+    },
+    {
+      "id": "explosions/barrel-explosion",
+      "name": "Barrel explosion",
+      "description": "An explosive barrel shudders, its lid bulging and spitting flame, then blows: a fireball column, staves and the lid flying, burning fuel splashed over the floor.",
+      "tags": [
+        "explosion",
+        "barrel",
+        "fire",
+        "smoke",
+        "debris",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 157,
+      "size": [
+        300,
+        240
+      ],
+      "pivot": [
+        150,
+        204
+      ],
+      "resource": "res://assets/pixelfx/explosions/barrel-explosion/barrel-explosion.tres"
+    },
+    {
+      "id": "explosions/big-explosion",
+      "name": "Big explosion",
+      "description": "A huge ground blast in three beats: a white dome, a rolling fireball that climbs into a mushrooming smoke column, heavy rocks, and fires left burning.",
+      "tags": [
+        "explosion",
+        "fire",
+        "smoke",
+        "debris",
+        "mushroom",
+        "big",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 217,
+      "size": [
+        360,
+        300
+      ],
+      "pivot": [
+        180,
+        262
+      ],
+      "resource": "res://assets/pixelfx/explosions/big-explosion/big-explosion.tres"
+    },
+    {
+      "id": "explosions/cartoon-pow",
+      "name": "Cartoon POW",
+      "description": "A comic-book hit: a jagged two-tone burst star slams in with a shake and boiling edges, POW! drops in letter by letter, action lines fly, then it all snaps away.",
+      "tags": [
+        "cartoon",
+        "comic",
+        "pow",
+        "hit",
+        "impact",
+        "text",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 33,
+      "size": [
+        184,
+        144
+      ],
+      "pivot": [
+        92,
+        72
+      ],
+      "resource": "res://assets/pixelfx/explosions/cartoon-pow/cartoon-pow.tres"
+    },
+    {
+      "id": "explosions/dirt-explosion",
+      "name": "Dirt explosion",
+      "description": "A buried charge goes off: a flash under the floor, a V of dirt clods and grit thrown high, a brown dust plume that billows and settles, and a crater left behind.",
+      "tags": [
+        "explosion",
+        "dirt",
+        "earth",
+        "dust",
+        "debris",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 109,
+      "size": [
+        260,
+        240
+      ],
+      "pivot": [
+        130,
+        206
+      ],
+      "resource": "res://assets/pixelfx/explosions/dirt-explosion/dirt-explosion.tres"
+    },
+    {
+      "id": "explosions/firework-burst",
+      "name": "Firework burst",
+      "description": "A shell climbs, slows and bursts into a sphere of coloured trailing stars round a gold core; they droop, crackle into white pops and fade, leaving glitter.",
+      "tags": [
+        "firework",
+        "celebration",
+        "sparkle",
+        "sky",
+        "burst",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 109,
+      "size": [
+        240,
+        248
+      ],
+      "pivot": [
+        120,
+        100
+      ],
+      "resource": "res://assets/pixelfx/explosions/firework-burst/firework-burst.tres"
+    },
+    {
+      "id": "explosions/firework-rocket",
+      "name": "Firework rocket",
+      "description": "A rocket fizzes off the ground on a sparkling gold trail, coasts, and bursts into a palm: heavy gold fronds arc out, droop on glittering trails and crackle at the tips.",
+      "tags": [
+        "firework",
+        "rocket",
+        "celebration",
+        "sparkle",
+        "sky",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 115,
+      "size": [
+        300,
+        300
+      ],
+      "pivot": [
+        150,
+        288
+      ],
+      "resource": "res://assets/pixelfx/explosions/firework-rocket/firework-rocket.tres"
+    },
+    {
+      "id": "explosions/grenade",
+      "name": "Grenade",
+      "description": "A grenade is lobbed in, bounces, rolls to a stop with its fuse fizzing, shudders, then blows: a white flash, shrapnel streaks, sparks, a small fireball and a scorch.",
+      "tags": [
+        "explosion",
+        "grenade",
+        "shrapnel",
+        "fire",
+        "smoke",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 127,
+      "size": [
+        300,
+        200
+      ],
+      "pivot": [
+        160,
+        170
+      ],
+      "resource": "res://assets/pixelfx/explosions/grenade/grenade.tres"
+    },
+    {
+      "id": "explosions/implosion",
+      "name": "Implosion",
+      "description": "Everything is sucked in: streaks and grit rush inward, rings contract and a dark sphere collapses onto a crushed white point; a beat of stillness, then a sharp pop.",
+      "tags": [
+        "implosion",
+        "energy",
+        "magic",
+        "collapse",
+        "pop",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 51,
+      "size": [
+        208,
+        184
+      ],
+      "pivot": [
+        104,
+        92
+      ],
+      "resource": "res://assets/pixelfx/explosions/implosion/implosion.tres"
+    },
+    {
+      "id": "explosions/nuke",
+      "name": "Nuke",
+      "description": "A blinding white frame, then a fireball lifts on a thin stem into a wide rolling cap that glows from inside; a white skirt flashes and a dust surge sweeps the floor.",
+      "tags": [
+        "explosion",
+        "nuke",
+        "mushroom",
+        "cloud",
+        "big",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 271,
+      "size": [
+        400,
+        320
+      ],
+      "pivot": [
+        200,
+        284
+      ],
+      "resource": "res://assets/pixelfx/explosions/nuke/nuke.tres"
+    },
+    {
+      "id": "explosions/plasma-explosion",
+      "name": "Plasma explosion",
+      "description": "A blue-violet energy blast with no smoke: a white flash, a ball of plasma swelling into a thinning shell, shock rings in and out of depth, lightning arcs crackling off it.",
+      "tags": [
+        "explosion",
+        "plasma",
+        "energy",
+        "electric",
+        "magic",
+        "sci-fi",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 52,
+      "size": [
+        224,
+        200
+      ],
+      "pivot": [
+        112,
+        100
+      ],
+      "resource": "res://assets/pixelfx/explosions/plasma-explosion/plasma-explosion.tres"
+    },
+    {
+      "id": "explosions/small-explosion",
+      "name": "Explosion",
+      "description": "A ground blast: a white flash and shock rings, fire that cools into a rolling smoke column, sparks, burning brands that land and keep burning, tumbling rocks and a glowing scorch.",
+      "tags": [
+        "explosion",
+        "fire",
+        "smoke",
+        "debris",
+        "impact",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 163,
+      "size": [
+        300,
+        240
+      ],
+      "pivot": [
+        150,
+        196
+      ],
+      "resource": "res://assets/pixelfx/explosions/small-explosion/small-explosion.tres"
+    },
+    {
+      "id": "explosions/smoke-bomb",
+      "name": "Smoke bomb",
+      "description": "A round canister clinks down, fuse sparking, and pops: thick grey-violet smoke gushes out, rolls along the floor, billows into a cloud that hides all, then thins to wisps.",
+      "tags": [
+        "smoke",
+        "smoke-bomb",
+        "ninja",
+        "vanish",
+        "escape",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 151,
+      "size": [
+        260,
+        176
+      ],
+      "pivot": [
+        130,
+        156
+      ],
+      "resource": "res://assets/pixelfx/explosions/smoke-bomb/smoke-bomb.tres"
+    },
+    {
+      "id": "fire/brazier",
+      "name": "Brazier",
+      "description": "An iron bowl on a tripod heaped with glowing coals and a big roaring fire, sparks and embers streaming up off it, light on the iron and the floor.",
+      "tags": [
+        "fire",
+        "brazier",
+        "prop",
+        "light",
+        "sparks",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 90,
+      "size": [
+        112,
+        148
+      ],
+      "pivot": [
+        56,
+        136
+      ],
+      "resource": "res://assets/pixelfx/fire/brazier/brazier.tres"
+    },
+    {
+      "id": "fire/campfire",
+      "name": "Campfire",
+      "description": "Crossed logs on a bed of coals and a lively fire: tongues that lick and leap, popping sparks, embers drifting up, smoke curling off, a warm pool of light.",
+      "tags": [
+        "fire",
+        "campfire",
+        "prop",
+        "light",
+        "smoke",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 90,
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "resource": "res://assets/pixelfx/fire/campfire/campfire.tres"
+    },
+    {
+      "id": "fire/candle",
+      "name": "Candle",
+      "description": "A wax candle in a brass dish: a calm flame with a blue root that sways and stretches, a halo of light, motes drifting in it, a bead of wax running down a drip.",
+      "tags": [
+        "fire",
+        "candle",
+        "prop",
+        "light",
+        "calm",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 120,
+      "size": [
+        56,
+        76
+      ],
+      "pivot": [
+        28,
+        64
+      ],
+      "resource": "res://assets/pixelfx/fire/candle/candle.tres"
+    },
+    {
+      "id": "fire/fire-breath",
+      "name": "Fire breath",
+      "description": "A roaring cone of fire streaming right from the mouth: white-hot at the lips, billowing out and cooling to red and smoke at its edges, sparks thrown out ahead.",
+      "tags": [
+        "fire",
+        "breath",
+        "dragon",
+        "stream",
+        "cone",
+        "directional",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 45,
+      "size": [
+        160,
+        116
+      ],
+      "pivot": [
+        12,
+        72
+      ],
+      "resource": "res://assets/pixelfx/fire/fire-breath/fire-breath.tres"
+    },
+    {
+      "id": "fire/fire-ring",
+      "name": "Fire ring",
+      "description": "A white flash at the feet, then flames race outward along the floor in a ring, flaring as the front passes and burning down behind it over a smouldering scorch.",
+      "tags": [
+        "fire",
+        "ring",
+        "nova",
+        "aoe",
+        "spell",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 118,
+      "size": [
+        224,
+        128
+      ],
+      "pivot": [
+        112,
+        92
+      ],
+      "resource": "res://assets/pixelfx/fire/fire-ring/fire-ring.tres"
+    },
+    {
+      "id": "fire/fire-tornado",
+      "name": "Fire tornado",
+      "description": "A spinning funnel of fire: spiral bands turning round it, licks flung off its sides, a ring of flame whirling at its foot, embers orbiting it in and out of view.",
+      "tags": [
+        "fire",
+        "tornado",
+        "vortex",
+        "spell",
+        "aoe",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 60,
+      "size": [
+        120,
+        152
+      ],
+      "pivot": [
+        60,
+        136
+      ],
+      "resource": "res://assets/pixelfx/fire/fire-tornado/fire-tornado.tres"
+    },
+    {
+      "id": "fire/fireball",
+      "name": "Fireball",
+      "description": "A fireball flying right: a churning white-hot head with a corona of flame, a long torn tail of flame puffs cooling into smoke, embers shed behind.",
+      "tags": [
+        "fire",
+        "fireball",
+        "projectile",
+        "magic",
+        "directional",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 36,
+      "size": [
+        136,
+        56
+      ],
+      "pivot": [
+        112,
+        28
+      ],
+      "resource": "res://assets/pixelfx/fire/fireball/fireball.tres"
+    },
+    {
+      "id": "fire/flame-pillar",
+      "name": "Flame pillar",
+      "description": "The floor cracks and glows, a column of fire erupts white-hot and roars, spewing embers and shedding flame, then collapses into rolling smoke.",
+      "tags": [
+        "fire",
+        "pillar",
+        "eruption",
+        "spell",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 151,
+      "size": [
+        184,
+        256
+      ],
+      "pivot": [
+        92,
+        232
+      ],
+      "resource": "res://assets/pixelfx/fire/flame-pillar/flame-pillar.tres"
+    },
+    {
+      "id": "fire/flamethrower",
+      "name": "Flamethrower",
+      "description": "A pressurised jet shooting right: a blue pilot at the nozzle, a tight stream with surges racing down it, a sputter, burning drops falling off, a tip that curls up into smoke.",
+      "tags": [
+        "fire",
+        "flamethrower",
+        "stream",
+        "weapon",
+        "directional",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 48,
+      "size": [
+        184,
+        104
+      ],
+      "pivot": [
+        30,
+        60
+      ],
+      "resource": "res://assets/pixelfx/fire/flamethrower/flamethrower.tres"
+    },
+    {
+      "id": "fire/meteor",
+      "name": "Meteor",
+      "description": "A burning rock streaks in from the upper left in a comet of fire and smashes into the floor: a white flash, a fireball, rocks and brands thrown, a glowing crater that cools.",
+      "tags": [
+        "fire",
+        "meteor",
+        "impact",
+        "explosion",
+        "spell",
+        "debris",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 151,
+      "size": [
+        272,
+        232
+      ],
+      "pivot": [
+        150,
+        208
+      ],
+      "resource": "res://assets/pixelfx/fire/meteor/meteor.tres"
+    },
+    {
+      "id": "fire/spirit-flame",
+      "name": "Spirit flame",
+      "description": "A cold blue-teal ghost fire floating in the air: a bright rim round a hollow dark heart, a wave climbing its wispy tail, curls breaking off, cold sparks rising.",
+      "tags": [
+        "fire",
+        "spirit",
+        "ghost",
+        "magic",
+        "cold",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 90,
+      "size": [
+        80,
+        124
+      ],
+      "pivot": [
+        40,
+        94
+      ],
+      "resource": "res://assets/pixelfx/fire/spirit-flame/spirit-flame.tres"
+    },
+    {
+      "id": "fire/torch",
+      "name": "Torch",
+      "description": "A wall torch on an iron bracket: a licking flame leaping off a pitch-soaked wrap, licks and puffs torn off its tips, smoke, embers, a flickering light on the wall.",
+      "tags": [
+        "fire",
+        "torch",
+        "prop",
+        "light",
+        "wall",
+        "dungeon",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 60,
+      "size": [
+        72,
+        120
+      ],
+      "pivot": [
+        36,
+        94
+      ],
+      "resource": "res://assets/pixelfx/fire/torch/torch.tres"
+    },
+    {
+      "id": "holy/blessing",
+      "name": "Blessing",
+      "description": "A soft cone of light rests on the character from above; sparkles drift down through it, twinkling, and wink out where they land on the head and shoulders.",
+      "tags": [
+        "holy",
+        "blessing",
+        "buff",
+        "light",
+        "sparkle",
+        "character",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 90,
+      "size": [
+        80,
+        128
+      ],
+      "pivot": [
+        40,
+        108
+      ],
+      "resource": "res://assets/pixelfx/holy/blessing/blessing.tres"
+    },
+    {
+      "id": "holy/divine-shield",
+      "name": "Divine shield",
+      "description": "A bubble of gold light round the character: a bright rim and a thin gold film, meridians turning like a slow globe, a sheen sweeping across and sparkles winking on it.",
+      "tags": [
+        "holy",
+        "shield",
+        "bubble",
+        "barrier",
+        "buff",
+        "character",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        88,
+        84
+      ],
+      "pivot": [
+        44,
+        68
+      ],
+      "resource": "res://assets/pixelfx/holy/divine-shield/divine-shield.tres"
+    },
+    {
+      "id": "holy/feather-burst",
+      "name": "Feather burst",
+      "description": "A white puff pops and throws feathers that brake hard, then rock from side to side as they sink and fade, with down drifting after them.",
+      "tags": [
+        "holy",
+        "feather",
+        "burst",
+        "poof",
+        "angel",
+        "bird",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 91,
+      "size": [
+        160,
+        160
+      ],
+      "pivot": [
+        80,
+        60
+      ],
+      "resource": "res://assets/pixelfx/holy/feather-burst/feather-burst.tres"
+    },
+    {
+      "id": "holy/halo",
+      "name": "Halo",
+      "description": "A ring of gold light floats over the head with a glint running round it; fine dust sifts down from it and the head catches its light.",
+      "tags": [
+        "holy",
+        "halo",
+        "saint",
+        "buff",
+        "glow",
+        "character",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 60,
+      "size": [
+        56,
+        80
+      ],
+      "pivot": [
+        28,
+        70
+      ],
+      "resource": "res://assets/pixelfx/holy/halo/halo.tres"
+    },
+    {
+      "id": "holy/heal-aoe",
+      "name": "Healing ring",
+      "description": "A seed of green light sinks into the floor and a soft ring rolls out from it; the floor glows where it passes and plus signs sprout and float up.",
+      "tags": [
+        "holy",
+        "heal",
+        "aoe",
+        "ring",
+        "plus",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 88,
+      "size": [
+        256,
+        136
+      ],
+      "pivot": [
+        128,
+        104
+      ],
+      "resource": "res://assets/pixelfx/holy/heal-aoe/heal-aoe.tres"
+    },
+    {
+      "id": "holy/heal",
+      "name": "Heal",
+      "description": "Petals of light bloom under the feet, a hoop of light rises up the body restoring its colour and leaving sparkles, and motes spiral up and pop into tiny hearts.",
+      "tags": [
+        "holy",
+        "heal",
+        "restore",
+        "buff",
+        "petals",
+        "hearts",
+        "character",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 58,
+      "size": [
+        80,
+        104
+      ],
+      "pivot": [
+        40,
+        92
+      ],
+      "resource": "res://assets/pixelfx/holy/heal/heal.tres"
+    },
+    {
+      "id": "holy/holy-pillar",
+      "name": "Holy pillar",
+      "description": "Light breaks through from above: a sun opens at the top and a fan of shafts converges on the mark, pulsing, while a sigil burns on the floor; then the fan folds shut.",
+      "tags": [
+        "holy",
+        "pillar",
+        "light",
+        "rays",
+        "aoe",
+        "sigil",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 106,
+      "size": [
+        192,
+        232
+      ],
+      "pivot": [
+        96,
+        204
+      ],
+      "resource": "res://assets/pixelfx/holy/holy-pillar/holy-pillar.tres"
+    },
+    {
+      "id": "holy/resurrection",
+      "name": "Resurrection",
+      "description": "Light pours down on the fallen and life climbs back up the body; wings of light unfold, a halo forms, one great wingbeat, then the wings scatter into feathers.",
+      "tags": [
+        "holy",
+        "revive",
+        "resurrect",
+        "wings",
+        "halo",
+        "light",
+        "character",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 145,
+      "size": [
+        192,
+        160
+      ],
+      "pivot": [
+        96,
+        140
+      ],
+      "resource": "res://assets/pixelfx/holy/resurrection/resurrection.tres"
+    },
+    {
+      "id": "holy/smite",
+      "name": "Smite",
+      "description": "A glint marks the spot, then a bolt of light drops like a hammer: a white flash, a shockwave over the floor, stone chips flying and cracks that glow and cool.",
+      "tags": [
+        "holy",
+        "smite",
+        "strike",
+        "impact",
+        "light",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 85,
+      "size": [
+        224,
+        176
+      ],
+      "pivot": [
+        112,
+        148
+      ],
+      "resource": "res://assets/pixelfx/holy/smite/smite.tres"
+    },
+    {
+      "id": "holy/sunburst",
+      "name": "Sunburst",
+      "description": "A white-hot core in a gold corona; long and short rays turn slowly round it, breathing, with glints running out along them that wink at the tips.",
+      "tags": [
+        "holy",
+        "sun",
+        "radiant",
+        "rays",
+        "light",
+        "glow",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 120,
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        64
+      ],
+      "resource": "res://assets/pixelfx/holy/sunburst/sunburst.tres"
+    },
+    {
+      "id": "ice/blizzard-vortex",
+      "name": "Blizzard vortex",
+      "description": "A swirling snow tornado: wind bands spin up a leaning funnel, flakes and ice crystals orbit in front and behind, snow boils at its foot and cold light fills its throat.",
+      "tags": [
+        "ice",
+        "snow",
+        "blizzard",
+        "tornado",
+        "vortex",
+        "wind",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 60,
+      "size": [
+        128,
+        116
+      ],
+      "pivot": [
+        64,
+        102
+      ],
+      "resource": "res://assets/pixelfx/ice/blizzard-vortex/blizzard-vortex.tres"
+    },
+    {
+      "id": "ice/freeze",
+      "name": "Freeze",
+      "description": "Frost races in and climbs the character, turning it to ice; a faceted block crystallizes round it pane by pane, glints, cracks and bursts, and the character thaws free.",
+      "tags": [
+        "ice",
+        "freeze",
+        "frozen",
+        "status",
+        "crowd-control",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 121,
+      "size": [
+        176,
+        128
+      ],
+      "pivot": [
+        88,
+        108
+      ],
+      "resource": "res://assets/pixelfx/ice/freeze/freeze.tres"
+    },
+    {
+      "id": "ice/frost-breath",
+      "name": "Frost breath",
+      "description": "A cone of icy wind blowing right: frost puffs billow out, swell and sink, wind streaks race through, ice crystals tumble and glint off a white-hot mouth.",
+      "tags": [
+        "ice",
+        "breath",
+        "frost",
+        "cone",
+        "wind",
+        "directional",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 36,
+      "size": [
+        184,
+        104
+      ],
+      "pivot": [
+        12,
+        50
+      ],
+      "resource": "res://assets/pixelfx/ice/frost-breath/frost-breath.tres"
+    },
+    {
+      "id": "ice/frost-nova",
+      "name": "Frost nova",
+      "description": "Frost spirals into a spinning snowflake, then a wave blooms three rings of ice crystals round the caster; snow drifts, frost creeps, and the ice melts back into the floor.",
+      "tags": [
+        "ice",
+        "nova",
+        "aoe",
+        "frost",
+        "magic",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 103,
+      "size": [
+        288,
+        192
+      ],
+      "pivot": [
+        144,
+        150
+      ],
+      "resource": "res://assets/pixelfx/ice/frost-nova/frost-nova.tres"
+    },
+    {
+      "id": "ice/ice-crystal",
+      "name": "Ice crystal",
+      "description": "A floating ice crystal turning slowly in its own cold light: its facets brighten and darken as they turn, glints flash on them, frost motes circle it.",
+      "tags": [
+        "ice",
+        "crystal",
+        "gem",
+        "pickup",
+        "float",
+        "magic",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 90,
+      "size": [
+        96,
+        100
+      ],
+      "pivot": [
+        48,
+        92
+      ],
+      "resource": "res://assets/pixelfx/ice/ice-crystal/ice-crystal.tres"
+    },
+    {
+      "id": "ice/ice-lance",
+      "name": "Ice lance",
+      "description": "A faceted ice spear flying right: a light pulse runs through its core, rings of cold air shear off the tip, frost peels off into a wake and crystals shed behind it.",
+      "tags": [
+        "ice",
+        "lance",
+        "spear",
+        "projectile",
+        "directional",
+        "magic",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 24,
+      "size": [
+        176,
+        64
+      ],
+      "pivot": [
+        146,
+        32
+      ],
+      "resource": "res://assets/pixelfx/ice/ice-lance/ice-lance.tres"
+    },
+    {
+      "id": "ice/ice-shatter",
+      "name": "Ice shatter",
+      "description": "A block of ice takes a hit from the left: it jolts, cracks race over its faces, it flashes white and bursts into chunks that tumble, bounce and skid off in a roll of ice dust.",
+      "tags": [
+        "ice",
+        "shatter",
+        "break",
+        "destroy",
+        "impact",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 85,
+      "size": [
+        224,
+        112
+      ],
+      "pivot": [
+        68,
+        90
+      ],
+      "resource": "res://assets/pixelfx/ice/ice-shatter/ice-shatter.tres"
+    },
+    {
+      "id": "ice/ice-spikes",
+      "name": "Ice spikes",
+      "description": "A frost line races along the floor and clusters of jagged ice blades burst up behind it in a rising wave, glint, flash white together and shatter into toppling shards.",
+      "tags": [
+        "ice",
+        "spikes",
+        "ground",
+        "wave",
+        "directional",
+        "magic",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 91,
+      "size": [
+        264,
+        112
+      ],
+      "pivot": [
+        24,
+        96
+      ],
+      "resource": "res://assets/pixelfx/ice/ice-spikes/ice-spikes.tres"
+    },
+    {
+      "id": "ice/icicle-fall",
+      "name": "Icicle fall",
+      "description": "An icicle drips and trembles, snaps off its frosted root, drops, stabs the floor and bursts into skidding shards, splinters and rolling frost.",
+      "tags": [
+        "ice",
+        "icicle",
+        "fall",
+        "trap",
+        "shatter",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 79,
+      "size": [
+        152,
+        120
+      ],
+      "pivot": [
+        76,
+        100
+      ],
+      "resource": "res://assets/pixelfx/ice/icicle-fall/icicle-fall.tres"
+    },
+    {
+      "id": "ice/snowflake-burst",
+      "name": "Snowflake burst",
+      "description": "A cold pop: frost gathers and flashes white in a ring, then crisp six-armed snowflakes spin out, slow, twinkle and drift down to settle and melt.",
+      "tags": [
+        "ice",
+        "snow",
+        "snowflake",
+        "burst",
+        "magic",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 97,
+      "size": [
+        140,
+        120
+      ],
+      "pivot": [
+        70,
+        106
+      ],
+      "resource": "res://assets/pixelfx/ice/snowflake-burst/snowflake-burst.tres"
+    },
+    {
+      "id": "impacts/blunt-hit",
+      "name": "Blunt hit",
+      "description": "A heavy, soft thud: a white-hot lumpy blob cools to cream in a warm pool of light, inked wedges jab out and snap back, a squashed ring of dust puffs swells and drifts, clods drop.",
+      "tags": [
+        "impact",
+        "hit",
+        "blunt",
+        "punch",
+        "club",
+        "thump",
+        "dust",
+        "comic",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 28,
+      "size": [
+        128,
+        88
+      ],
+      "pivot": [
+        64,
+        72
+      ],
+      "resource": "res://assets/pixelfx/impacts/blunt-hit/blunt-hit.tres"
+    },
+    {
+      "id": "impacts/bullet-impact",
+      "name": "Bullet impact",
+      "description": "A bullet hits a wall on the right: a hot half-star, sparks sprayed back in a cone, a puff of grit, chips that fall and bounce, a pock mark cooling to soot.",
+      "tags": [
+        "impact",
+        "bullet",
+        "gun",
+        "wall",
+        "sparks",
+        "debris",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 43,
+      "size": [
+        152,
+        100
+      ],
+      "pivot": [
+        116,
+        84
+      ],
+      "resource": "res://assets/pixelfx/impacts/bullet-impact/bullet-impact.tres"
+    },
+    {
+      "id": "impacts/crit-hit",
+      "name": "Critical hit",
+      "description": "A critical hit: a jagged starburst slams in white and overshoots, a ring breaks into flying arcs, sparks streak off, shards tumble to the floor under a big flare.",
+      "tags": [
+        "impact",
+        "hit",
+        "crit",
+        "critical",
+        "combat",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 28,
+      "size": [
+        216,
+        136
+      ],
+      "pivot": [
+        84,
+        106
+      ],
+      "resource": "res://assets/pixelfx/impacts/crit-hit/crit-hit.tres"
+    },
+    {
+      "id": "impacts/ground-slam",
+      "name": "Ground slam",
+      "description": "Something lands hard: the floor flashes and cracks, two crescent shock waves race out along it, a dust wave and a tall dust cloud rise, rocks erupt, bounce and settle.",
+      "tags": [
+        "impact",
+        "ground",
+        "slam",
+        "shockwave",
+        "quake",
+        "rocks",
+        "dust",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 97,
+      "size": [
+        288,
+        208
+      ],
+      "pivot": [
+        144,
+        164
+      ],
+      "resource": "res://assets/pixelfx/impacts/ground-slam/ground-slam.tres"
+    },
+    {
+      "id": "impacts/heavy-landing",
+      "name": "Heavy landing",
+      "description": "A character lands hard: the floor dents and cracks under their feet, two rings of dust roll out along the floor one after the other, and pebbles hop away.",
+      "tags": [
+        "impact",
+        "landing",
+        "ground",
+        "stomp",
+        "dust",
+        "rocks",
+        "actor",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 49,
+      "size": [
+        176,
+        80
+      ],
+      "pivot": [
+        88,
+        60
+      ],
+      "resource": "res://assets/pixelfx/impacts/heavy-landing/heavy-landing.tres"
+    },
+    {
+      "id": "impacts/hit-flash",
+      "name": "Hit flash",
+      "description": "The character takes damage: a white frame, then their own colors flushed red and blinking white, cooling off, while comic hit lines jab in at them.",
+      "tags": [
+        "impact",
+        "hit",
+        "damage",
+        "hurt",
+        "flash",
+        "blink",
+        "actor",
+        "comic",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 16,
+      "size": [
+        80,
+        64
+      ],
+      "pivot": [
+        40,
+        54
+      ],
+      "resource": "res://assets/pixelfx/impacts/hit-flash/hit-flash.tres"
+    },
+    {
+      "id": "impacts/hit-spark",
+      "name": "Hit spark",
+      "description": "The everyday hit: a sharp, lopsided cross flare with one long ray along the blow round a white diamond core, then a cone of sparks and hot chips that fall and bounce.",
+      "tags": [
+        "impact",
+        "hit",
+        "spark",
+        "combat",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 16,
+      "size": [
+        136,
+        80
+      ],
+      "pivot": [
+        44,
+        64
+      ],
+      "resource": "res://assets/pixelfx/impacts/hit-spark/hit-spark.tres"
+    },
+    {
+      "id": "impacts/impact-frame",
+      "name": "Impact frame",
+      "description": "An anime impact: two frames of white with black burst lines rushing at the hit, two frames inverted, then the lines pull out past the edges and vanish.",
+      "tags": [
+        "impact",
+        "hit",
+        "anime",
+        "manga",
+        "flash",
+        "speed-lines",
+        "screen",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 10,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        160,
+        90
+      ],
+      "resource": "res://assets/pixelfx/impacts/impact-frame/impact-frame.tres"
+    },
+    {
+      "id": "impacts/parry",
+      "name": "Parry",
+      "description": "Two blades clash: their edges flash in an X, a white four-point star rings out, a ring breaks into arcs and a fan of gold sparks sprays up and rains down.",
+      "tags": [
+        "impact",
+        "parry",
+        "block",
+        "clash",
+        "sword",
+        "metal",
+        "sparks",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 31,
+      "size": [
+        200,
+        112
+      ],
+      "pivot": [
+        100,
+        96
+      ],
+      "resource": "res://assets/pixelfx/impacts/parry/parry.tres"
+    },
+    {
+      "id": "impacts/ricochet",
+      "name": "Ricochet",
+      "description": "A tracer streaks down onto the floor, glances off with a white-hot star and skips away at an angle, leaving a glowing skid while sparks skitter along the ground.",
+      "tags": [
+        "impact",
+        "ricochet",
+        "bullet",
+        "tracer",
+        "sparks",
+        "ground",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 34,
+      "size": [
+        232,
+        84
+      ],
+      "pivot": [
+        64,
+        60
+      ],
+      "resource": "res://assets/pixelfx/impacts/ricochet/ricochet.tres"
+    },
+    {
+      "id": "impacts/shield-block",
+      "name": "Shield block",
+      "description": "A blow is caught on a half-dome of energy in front of the character: its diamond lattice flashes, a ripple runs over it, sparks glance off, then it blinks out cell by cell.",
+      "tags": [
+        "impact",
+        "block",
+        "shield",
+        "barrier",
+        "energy",
+        "ripple",
+        "actor",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 34,
+      "size": [
+        148,
+        104
+      ],
+      "pivot": [
+        40,
+        88
+      ],
+      "resource": "res://assets/pixelfx/impacts/shield-block/shield-block.tres"
+    },
+    {
+      "id": "lightning/ball-lightning",
+      "name": "Ball lightning",
+      "description": "A crackling ball of plasma drifts on a wandering loop, spitting arcs off its skin and leaving a wake of fading motes, and zaps the floor when it dips low.",
+      "tags": [
+        "lightning",
+        "electric",
+        "plasma",
+        "orb",
+        "wisp",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 120,
+      "size": [
+        136,
+        104
+      ],
+      "pivot": [
+        68,
+        92
+      ],
+      "resource": "res://assets/pixelfx/lightning/ball-lightning/ball-lightning.tres"
+    },
+    {
+      "id": "lightning/chain-lightning",
+      "name": "Chain lightning",
+      "description": "A bolt leaps from the caster's hand through three targets in turn; each flashes, sparks and grounds itself to the floor while the arcs between them flicker, then the chain snaps.",
+      "tags": [
+        "lightning",
+        "electric",
+        "chain",
+        "spell",
+        "combat",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 55,
+      "size": [
+        248,
+        104
+      ],
+      "pivot": [
+        40,
+        82
+      ],
+      "resource": "res://assets/pixelfx/lightning/chain-lightning/chain-lightning.tres"
+    },
+    {
+      "id": "lightning/charge-up",
+      "name": "Charge up",
+      "description": "Sparks streak and arcs whip in to a crackling core at the caster's hand that swells and pulses faster, then it flashes and bursts: bolts every way, a ring, a spray of sparks.",
+      "tags": [
+        "lightning",
+        "electric",
+        "charge",
+        "spell",
+        "power-up",
+        "actor",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 82,
+      "size": [
+        272,
+        184
+      ],
+      "pivot": [
+        124,
+        148
+      ],
+      "resource": "res://assets/pixelfx/lightning/charge-up/charge-up.tres"
+    },
+    {
+      "id": "lightning/electrified",
+      "name": "Electrified",
+      "description": "Current runs through a character: arcs crawl over and leap across the body, sparks spit off, the body flares to an electric silhouette on each jolt, and the feet ground out.",
+      "tags": [
+        "lightning",
+        "electric",
+        "status",
+        "shock",
+        "stun",
+        "actor",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 60,
+      "size": [
+        108,
+        92
+      ],
+      "pivot": [
+        54,
+        76
+      ],
+      "resource": "res://assets/pixelfx/lightning/electrified/electrified.tres"
+    },
+    {
+      "id": "lightning/lightning-strike",
+      "name": "Lightning strike",
+      "description": "A targeted strike: a sigil charges on the floor, the scene darkens, a thick bolt slams into it, arcs race out along the cracks it splits, the channel crumbles to a scorch.",
+      "tags": [
+        "lightning",
+        "electric",
+        "strike",
+        "spell",
+        "target",
+        "impact",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 91,
+      "size": [
+        240,
+        264
+      ],
+      "pivot": [
+        120,
+        228
+      ],
+      "resource": "res://assets/pixelfx/lightning/lightning-strike/lightning-strike.tres"
+    },
+    {
+      "id": "lightning/plasma-ball",
+      "name": "Plasma ball",
+      "description": "A glass globe on a dark pedestal: wandering plasma tendrils reach from the core to the glass and fan out in bright feet where they touch it, lighting the stand and floor.",
+      "tags": [
+        "lightning",
+        "electric",
+        "plasma",
+        "lamp",
+        "prop",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 90,
+      "size": [
+        112,
+        104
+      ],
+      "pivot": [
+        56,
+        96
+      ],
+      "resource": "res://assets/pixelfx/lightning/plasma-ball/plasma-ball.tres"
+    },
+    {
+      "id": "lightning/spark-arc",
+      "name": "Spark arc",
+      "description": "A climbing arc between two rods: it strikes white at their narrow foot, climbs on rising heat as it stretches and bows, sputters and snaps at the top, then strikes again.",
+      "tags": [
+        "lightning",
+        "electric",
+        "arc",
+        "jacobs-ladder",
+        "machine",
+        "prop",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 60,
+      "size": [
+        124,
+        120
+      ],
+      "pivot": [
+        62,
+        108
+      ],
+      "resource": "res://assets/pixelfx/lightning/spark-arc/spark-arc.tres"
+    },
+    {
+      "id": "lightning/storm-cloud",
+      "name": "Storm cloud",
+      "description": "A storm cloud boils overhead, billows lit from inside by flickering discharges, ragged scud under its flat dark base; rain slants down and once a loop a bolt cracks to the floor.",
+      "tags": [
+        "lightning",
+        "storm",
+        "weather",
+        "cloud",
+        "rain",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 90,
+      "size": [
+        168,
+        176
+      ],
+      "pivot": [
+        84,
+        164
+      ],
+      "resource": "res://assets/pixelfx/lightning/storm-cloud/storm-cloud.tres"
+    },
+    {
+      "id": "lightning/tesla-coil",
+      "name": "Tesla coil",
+      "description": "A copper coil under a steel torus throws branching arcs that lash out in volleys and now and then strike the floor in a spray of sparks, lighting the metal and the ground.",
+      "tags": [
+        "lightning",
+        "electric",
+        "tesla",
+        "machine",
+        "prop",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        224,
+        136
+      ],
+      "pivot": [
+        112,
+        120
+      ],
+      "resource": "res://assets/pixelfx/lightning/tesla-coil/tesla-coil.tres"
+    },
+    {
+      "id": "lightning/thunderclap",
+      "name": "Thunderclap",
+      "description": "A thunderclap round the caster: a white flash, forked bolts burst out and stab the floor, a heavy shock ring tears across the ground raising dust and grit, sparks streak away.",
+      "tags": [
+        "lightning",
+        "electric",
+        "nova",
+        "aoe",
+        "spell",
+        "shockwave",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 58,
+      "size": [
+        288,
+        156
+      ],
+      "pivot": [
+        144,
+        124
+      ],
+      "resource": "res://assets/pixelfx/lightning/thunderclap/thunderclap.tres"
+    },
+    {
+      "id": "lightning/zap-hit",
+      "name": "Zap hit",
+      "description": "A contact zap: an arc snaps in from the left, the hit point overloads into a knot of tiny crackling zigzags, a fern of burn marks glows outward, sparks jink away, ozone puffs.",
+      "tags": [
+        "lightning",
+        "electric",
+        "hit",
+        "impact",
+        "combat",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 28,
+      "size": [
+        144,
+        112
+      ],
+      "pivot": [
+        76,
+        56
+      ],
+      "resource": "res://assets/pixelfx/lightning/zap-hit/zap-hit.tres"
+    },
+    {
+      "id": "melee/claw-swipe",
+      "name": "Claw swipe",
+      "description": "Three claw marks rake down one after another, white-hot, cooling through orange to red, then close up from both ends and leave a dotted scar, with hot flecks and drips.",
+      "tags": [
+        "melee",
+        "claw",
+        "swipe",
+        "beast",
+        "scratch",
+        "combat",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 28,
+      "size": [
+        128,
+        96
+      ],
+      "pivot": [
+        36,
+        84
+      ],
+      "resource": "res://assets/pixelfx/melee/claw-swipe/claw-swipe.tres"
+    },
+    {
+      "id": "melee/dagger-flurry",
+      "name": "Dagger flurry",
+      "description": "A flurry of small quick crescents at every angle in front of the fighter, each with a flick of sparks, finished by one big cut that glints and bursts.",
+      "tags": [
+        "melee",
+        "slash",
+        "dagger",
+        "combo",
+        "flurry",
+        "fast",
+        "combat",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 30,
+      "size": [
+        148,
+        104
+      ],
+      "pivot": [
+        36,
+        86
+      ],
+      "resource": "res://assets/pixelfx/melee/dagger-flurry/dagger-flurry.tres"
+    },
+    {
+      "id": "melee/double-slash",
+      "name": "Double slash",
+      "description": "A down cut, then an up cut that crosses it: the moment the X closes both strokes flash white, the crossing bursts with light and sparks, and a dotted X lingers.",
+      "tags": [
+        "melee",
+        "slash",
+        "combo",
+        "sword",
+        "cross",
+        "combat",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 25,
+      "size": [
+        164,
+        108
+      ],
+      "pivot": [
+        44,
+        92
+      ],
+      "resource": "res://assets/pixelfx/melee/double-slash/double-slash.tres"
+    },
+    {
+      "id": "melee/hammer-smash",
+      "name": "Hammer smash",
+      "description": "A hammer drops in front in a wedge of motion: a white slam with rays, a dome of force, a dent with cracks, rocks thrown up that bounce and settle, and dust.",
+      "tags": [
+        "melee",
+        "smash",
+        "hammer",
+        "heavy",
+        "ground",
+        "shockwave",
+        "debris",
+        "combat",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 61,
+      "size": [
+        208,
+        112
+      ],
+      "pivot": [
+        80,
+        92
+      ],
+      "resource": "res://assets/pixelfx/melee/hammer-smash/hammer-smash.tres"
+    },
+    {
+      "id": "melee/heavy-cleave",
+      "name": "Heavy cleave",
+      "description": "A glint over the head, then a thick ember arc accelerates over the top into the floor: a white slam, glowing cracks, dust rolling both ways, grit and rising embers.",
+      "tags": [
+        "melee",
+        "slash",
+        "cleave",
+        "axe",
+        "heavy",
+        "ground",
+        "fire",
+        "combat",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 58,
+      "size": [
+        208,
+        116
+      ],
+      "pivot": [
+        68,
+        96
+      ],
+      "resource": "res://assets/pixelfx/melee/heavy-cleave/heavy-cleave.tres"
+    },
+    {
+      "id": "melee/scythe-reap",
+      "name": "Scythe reap",
+      "description": "A slow, huge dark crescent reaps round the front with a pale ghostly edge; it hangs, then tears away from the tail into curling wisps and cold vapour.",
+      "tags": [
+        "melee",
+        "scythe",
+        "reap",
+        "dark",
+        "ghost",
+        "death",
+        "slash",
+        "combat",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 64,
+      "size": [
+        184,
+        116
+      ],
+      "pivot": [
+        84,
+        98
+      ],
+      "resource": "res://assets/pixelfx/melee/scythe-reap/scythe-reap.tres"
+    },
+    {
+      "id": "melee/spear-sweep",
+      "name": "Spear sweep",
+      "description": "A wide low sweep at shin height: a long flat crescent swings from behind the legs round the front, and the wind of it kicks a wake of dust and grit along the floor.",
+      "tags": [
+        "melee",
+        "sweep",
+        "spear",
+        "polearm",
+        "low",
+        "aoe",
+        "ground",
+        "dust",
+        "combat",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 46,
+      "size": [
+        216,
+        84
+      ],
+      "pivot": [
+        104,
+        70
+      ],
+      "resource": "res://assets/pixelfx/melee/spear-sweep/spear-sweep.tres"
+    },
+    {
+      "id": "melee/spin-slash",
+      "name": "Spin slash",
+      "description": "The blade whirls once round the waist on a tilted plane, behind the body and back in front; the closed ring flares white, dissolves into a dotted trace and throws sparks.",
+      "tags": [
+        "melee",
+        "slash",
+        "spin",
+        "sword",
+        "aoe",
+        "combat",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 25,
+      "size": [
+        208,
+        104
+      ],
+      "pivot": [
+        104,
+        84
+      ],
+      "resource": "res://assets/pixelfx/melee/spin-slash/spin-slash.tres"
+    },
+    {
+      "id": "melee/sword-slash",
+      "name": "Sword slash",
+      "description": "A tilted crescent whips round in two frames, cools from white to deep blue as it trails off, glints at the tip and throws sparks.",
+      "tags": [
+        "melee",
+        "slash",
+        "sword",
+        "combat",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 24,
+      "size": [
+        136,
+        104
+      ],
+      "pivot": [
+        44,
+        92
+      ],
+      "resource": "res://assets/pixelfx/melee/sword-slash/sword-slash.tres"
+    },
+    {
+      "id": "melee/thrust",
+      "name": "Thrust",
+      "description": "A piercing stab: a bundle of streaks shoots out from the hand to a point, a long four-point star flares at the tip with a pierce ring, sparks and speed lines.",
+      "tags": [
+        "melee",
+        "thrust",
+        "stab",
+        "spear",
+        "rapier",
+        "pierce",
+        "combat",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 24,
+      "size": [
+        196,
+        76
+      ],
+      "pivot": [
+        34,
+        62
+      ],
+      "resource": "res://assets/pixelfx/melee/thrust/thrust.tres"
+    },
+    {
+      "id": "melee/uppercut",
+      "name": "Uppercut",
+      "description": "A crescent rises from the floor past the face, and at the top a comic impact star bursts: bold outline, hot core, burst lines, twinkles and sparks.",
+      "tags": [
+        "melee",
+        "uppercut",
+        "punch",
+        "rising",
+        "launcher",
+        "comic",
+        "combat",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 27,
+      "size": [
+        132,
+        128
+      ],
+      "pivot": [
+        48,
+        110
+      ],
+      "resource": "res://assets/pixelfx/melee/uppercut/uppercut.tres"
+    },
+    {
+      "id": "melee/whip-crack",
+      "name": "Whip crack",
+      "description": "A whip rolls out to the right as a loop running down its length, faster and faster, until the tip flips over and cracks: a white pop, a ring of air, sparks and a puff of smoke.",
+      "tags": [
+        "melee",
+        "whip",
+        "crack",
+        "lash",
+        "combat",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 27,
+      "size": [
+        192,
+        80
+      ],
+      "pivot": [
+        30,
+        68
+      ],
+      "resource": "res://assets/pixelfx/melee/whip-crack/whip-crack.tres"
+    },
+    {
+      "id": "moves/arrow-shot",
+      "name": "Arrow shot",
+      "description": "He raises the bow, draws to his cheek, holds his breath and looses: the string snaps forward, the arrow crosses the floor and thuds home.",
+      "tags": [
+        "move",
+        "bow",
+        "arrow",
+        "projectile",
+        "ranged",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 58,
+      "size": [
+        300,
+        74
+      ],
+      "pivot": [
+        38,
+        66
+      ],
+      "resource": "res://assets/pixelfx/moves/arrow-shot/arrow-shot.tres"
+    },
+    {
+      "id": "moves/dash-strike",
+      "name": "Dash strike",
+      "description": "A crouch, then he's across the floor in a blur of after-images and already cutting: a critical hit, a beat, and he hops back to where he started.",
+      "tags": [
+        "move",
+        "melee",
+        "sword",
+        "dash",
+        "crit",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 70,
+      "size": [
+        372,
+        156
+      ],
+      "pivot": [
+        66,
+        136
+      ],
+      "resource": "res://assets/pixelfx/moves/dash-strike/dash-strike.tres"
+    },
+    {
+      "id": "moves/earth-stomp",
+      "name": "Earth stomp",
+      "description": "A knee comes up, the boot slams down, the floor heaves under the target and a stone spike rams up through it.",
+      "tags": [
+        "move",
+        "earth",
+        "spell",
+        "stomp",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 105,
+      "size": [
+        290,
+        142
+      ],
+      "pivot": [
+        50,
+        128
+      ],
+      "resource": "res://assets/pixelfx/moves/earth-stomp/earth-stomp.tres"
+    },
+    {
+      "id": "moves/fireball-throw",
+      "name": "Fireball throw",
+      "description": "He gathers fire in his hand, leans back and hurls it: the ball flies, the target takes it in a blast and comes out charred.",
+      "tags": [
+        "move",
+        "fire",
+        "spell",
+        "projectile",
+        "explosion",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 205,
+      "size": [
+        356,
+        244
+      ],
+      "pivot": [
+        64,
+        198
+      ],
+      "resource": "res://assets/pixelfx/moves/fireball-throw/fireball-throw.tres"
+    },
+    {
+      "id": "moves/ground-pound",
+      "name": "Ground pound",
+      "description": "He coils, leaps out of frame height, hangs, and comes down like a rock: the floor cracks, shock waves race out and throw the target about as they pass.",
+      "tags": [
+        "move",
+        "impact",
+        "jump",
+        "landing",
+        "shockwave",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 116,
+      "size": [
+        304,
+        204
+      ],
+      "pivot": [
+        152,
+        168
+      ],
+      "resource": "res://assets/pixelfx/moves/ground-pound/ground-pound.tres"
+    },
+    {
+      "id": "moves/holy-smite",
+      "name": "Holy smite",
+      "description": "Both hands go up and a glint marks the target; he brings them down and a bolt of light drops like a hammer, leaving the target blanched.",
+      "tags": [
+        "move",
+        "holy",
+        "spell",
+        "strike",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 85,
+      "size": [
+        252,
+        182
+      ],
+      "pivot": [
+        42,
+        151
+      ],
+      "resource": "res://assets/pixelfx/moves/holy-smite/holy-smite.tres"
+    },
+    {
+      "id": "moves/ice-lance-throw",
+      "name": "Ice lance throw",
+      "description": "Frost gathers into a spear in his hand, he throws it like a javelin, and the target ices over in a burst of snowflakes and shivers.",
+      "tags": [
+        "move",
+        "ice",
+        "spell",
+        "projectile",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 131,
+      "size": [
+        310,
+        136
+      ],
+      "pivot": [
+        86,
+        134
+      ],
+      "resource": "res://assets/pixelfx/moves/ice-lance-throw/ice-lance-throw.tres"
+    },
+    {
+      "id": "moves/lightning-call",
+      "name": "Lightning call",
+      "description": "An arm goes up, a sigil lights under the target, and on the downswing a thick bolt comes down on it; the target jolts through the aftershocks.",
+      "tags": [
+        "move",
+        "lightning",
+        "spell",
+        "strike",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 91,
+      "size": [
+        290,
+        266
+      ],
+      "pivot": [
+        42,
+        231
+      ],
+      "resource": "res://assets/pixelfx/moves/lightning-call/lightning-call.tres"
+    },
+    {
+      "id": "moves/meteor-call",
+      "name": "Meteor call",
+      "description": "A long chant: a circle draws itself round him, it flares, he points, and a burning rock comes down on the target and flattens the scene.",
+      "tags": [
+        "move",
+        "fire",
+        "spell",
+        "meteor",
+        "ultimate",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 194,
+      "size": [
+        380,
+        240
+      ],
+      "pivot": [
+        92,
+        212
+      ],
+      "resource": "res://assets/pixelfx/moves/meteor-call/meteor-call.tres"
+    },
+    {
+      "id": "moves/pistol-shots",
+      "name": "Pistol shots",
+      "description": "Three aimed shots: the gun kicks up each time and settles, tracers cross the floor, and the target staggers under each hit.",
+      "tags": [
+        "move",
+        "gun",
+        "pistol",
+        "projectile",
+        "ranged",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 79,
+      "size": [
+        378,
+        76
+      ],
+      "pivot": [
+        111,
+        72
+      ],
+      "resource": "res://assets/pixelfx/moves/pistol-shots/pistol-shots.tres"
+    },
+    {
+      "id": "moves/rocket-launcher",
+      "name": "Rocket launcher",
+      "description": "He drops to one knee, shoulders the tube and fires: the kick shoves him back along the floor, the rocket crawls out on its jet and the target goes up.",
+      "tags": [
+        "move",
+        "gun",
+        "rocket",
+        "projectile",
+        "explosion",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 198,
+      "size": [
+        480,
+        244
+      ],
+      "pivot": [
+        178,
+        198
+      ],
+      "resource": "res://assets/pixelfx/moves/rocket-launcher/rocket-launcher.tres"
+    },
+    {
+      "id": "moves/sword-combo",
+      "name": "Sword combo",
+      "description": "Three strokes walking forward: a slash, a crossing double cut, and a two-handed cleave into the floor that throws the target about.",
+      "tags": [
+        "move",
+        "melee",
+        "sword",
+        "combo",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 90,
+      "size": [
+        264,
+        150
+      ],
+      "pivot": [
+        72,
+        130
+      ],
+      "resource": "res://assets/pixelfx/moves/sword-combo/sword-combo.tres"
+    },
+    {
+      "id": "nature/acid-splash",
+      "name": "Acid splash",
+      "description": "A gob of acid bursts into a crown and spatters; it eats a glowing, smoking pit into the floor and boils down into it, spitting bright beads, pale steam curling off.",
+      "tags": [
+        "nature",
+        "acid",
+        "poison",
+        "splash",
+        "liquid",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 85,
+      "size": [
+        184,
+        116
+      ],
+      "pivot": [
+        92,
+        100
+      ],
+      "resource": "res://assets/pixelfx/nature/acid-splash/acid-splash.tres"
+    },
+    {
+      "id": "nature/boulder",
+      "name": "Boulder",
+      "description": "A spinning boulder arcs right shedding dust and pebbles, smashes into the floor in a white flash and bursts into tumbling chunks, gravel and rolling dust.",
+      "tags": [
+        "nature",
+        "earth",
+        "rock",
+        "projectile",
+        "impact",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 70,
+      "size": [
+        264,
+        120
+      ],
+      "pivot": [
+        40,
+        104
+      ],
+      "resource": "res://assets/pixelfx/nature/boulder/boulder.tres"
+    },
+    {
+      "id": "nature/earth-spike",
+      "name": "Earth spike",
+      "description": "The floor cracks with light and heaves, a faceted stone spike rams up with two side shards in a burst of chips, grit and dust; rubble rains, then it splits and crumbles.",
+      "tags": [
+        "nature",
+        "earth",
+        "stone",
+        "spike",
+        "ground",
+        "attack",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 103,
+      "size": [
+        272,
+        150
+      ],
+      "pivot": [
+        136,
+        132
+      ],
+      "resource": "res://assets/pixelfx/nature/earth-spike/earth-spike.tres"
+    },
+    {
+      "id": "nature/healing-bloom",
+      "name": "Healing bloom",
+      "description": "A sprout pushes up and unfurls, a bud swells and opens round a glowing golden heart in a flare of healing light; its petals lift away one by one as motes.",
+      "tags": [
+        "nature",
+        "heal",
+        "flower",
+        "plant",
+        "buff",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 100,
+      "size": [
+        124,
+        120
+      ],
+      "pivot": [
+        62,
+        108
+      ],
+      "resource": "res://assets/pixelfx/nature/healing-bloom/healing-bloom.tres"
+    },
+    {
+      "id": "nature/leaf-storm",
+      "name": "Leaf storm",
+      "description": "Leaves tumble up a rising spiral round the character, passing behind and in front, turning and flipping, wrapped in bright bands of wind; litter swirls at their feet.",
+      "tags": [
+        "nature",
+        "wind",
+        "leaves",
+        "buff",
+        "aura",
+        "actor",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        112,
+        104
+      ],
+      "pivot": [
+        56,
+        92
+      ],
+      "resource": "res://assets/pixelfx/nature/leaf-storm/leaf-storm.tres"
+    },
+    {
+      "id": "nature/poison-cloud",
+      "name": "Poison cloud",
+      "description": "A miasma hugging the floor: ragged sheets of gas lit yellow-green from within, fading to violet, creep out in tongues that curl over at their tips; plumes twist up as ribbons.",
+      "tags": [
+        "nature",
+        "poison",
+        "gas",
+        "cloud",
+        "miasma",
+        "toxic",
+        "area",
+        "ground",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 120,
+      "size": [
+        256,
+        100
+      ],
+      "pivot": [
+        128,
+        86
+      ],
+      "resource": "res://assets/pixelfx/nature/poison-cloud/poison-cloud.tres"
+    },
+    {
+      "id": "nature/quake",
+      "name": "Quake",
+      "description": "The ground jolts three times: a rift tears out along the floor glowing deep inside, slabs of floor heave up and drop back askew, pebbles hop and dust bursts out of the split.",
+      "tags": [
+        "nature",
+        "earth",
+        "quake",
+        "rift",
+        "aoe",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 94,
+      "size": [
+        288,
+        104
+      ],
+      "pivot": [
+        144,
+        88
+      ],
+      "resource": "res://assets/pixelfx/nature/quake/quake.tres"
+    },
+    {
+      "id": "nature/root-snare",
+      "name": "Root snare",
+      "description": "The floor cracks and roots burst up round the character, spiralling round its legs; they cinch tight with a snap, hold, then crack and crumble into bark and dust.",
+      "tags": [
+        "nature",
+        "roots",
+        "plant",
+        "snare",
+        "root",
+        "status",
+        "actor",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 82,
+      "size": [
+        128,
+        96
+      ],
+      "pivot": [
+        64,
+        78
+      ],
+      "resource": "res://assets/pixelfx/nature/root-snare/root-snare.tres"
+    },
+    {
+      "id": "nature/spore-burst",
+      "name": "Spore burst",
+      "description": "A toadstool pushes up, swells and trembles as its gills glow, then squashes and puffs a lumpy cloud of glowing spores that billows up and drifts down twinkling.",
+      "tags": [
+        "nature",
+        "mushroom",
+        "spores",
+        "poison",
+        "cloud",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 97,
+      "size": [
+        212,
+        132
+      ],
+      "pivot": [
+        106,
+        118
+      ],
+      "resource": "res://assets/pixelfx/nature/spore-burst/spore-burst.tres"
+    },
+    {
+      "id": "nature/thorns",
+      "name": "Thorns",
+      "description": "A seam races along the floor and hooked thorns punch up out of it one after another, each bigger than the last, in bursts of dirt and green light; they hold, then sink.",
+      "tags": [
+        "nature",
+        "thorns",
+        "plant",
+        "spikes",
+        "ground",
+        "attack",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 73,
+      "size": [
+        232,
+        92
+      ],
+      "pivot": [
+        48,
+        78
+      ],
+      "resource": "res://assets/pixelfx/nature/thorns/thorns.tres"
+    },
+    {
+      "id": "nature/tornado",
+      "name": "Tornado",
+      "description": "A snaking funnel of spinning wind bands under a flared, churning top that flickers with lightning; leaves and debris whirl round it front and back, dust boils at its foot.",
+      "tags": [
+        "nature",
+        "wind",
+        "tornado",
+        "storm",
+        "hazard",
+        "ground",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 60,
+      "size": [
+        196,
+        168
+      ],
+      "pivot": [
+        98,
+        152
+      ],
+      "resource": "res://assets/pixelfx/nature/tornado/tornado.tres"
+    },
+    {
+      "id": "nature/toxic-puddle",
+      "name": "Toxic puddle",
+      "description": "Black tar lit from inside by chartreuse veins and a glowing rim, an oily sheen drifting on it; glossy bubbles dome, stretch and pop, vapour curls up in fraying ribbons.",
+      "tags": [
+        "nature",
+        "poison",
+        "toxic",
+        "sludge",
+        "tar",
+        "puddle",
+        "hazard",
+        "ground",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 120,
+      "size": [
+        176,
+        100
+      ],
+      "pivot": [
+        88,
+        86
+      ],
+      "resource": "res://assets/pixelfx/nature/toxic-puddle/toxic-puddle.tres"
+    },
+    {
+      "id": "nature/vine-whip",
+      "name": "Vine whip",
+      "description": "A thorny vine bursts from the floor, rears back coiled, then lashes out right in a whip crack that sprays sap and tears off leaves, before sliding back into the ground.",
+      "tags": [
+        "nature",
+        "vine",
+        "plant",
+        "whip",
+        "melee",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 43,
+      "size": [
+        216,
+        128
+      ],
+      "pivot": [
+        60,
+        114
+      ],
+      "resource": "res://assets/pixelfx/nature/vine-whip/vine-whip.tres"
+    },
+    {
+      "id": "pickups/chest-open",
+      "name": "Chest open",
+      "description": "A banded chest rattles with gold light leaking from its seam, the lid kicks open, rays fan up, and coins and gems arc out, bounce, glint and get collected.",
+      "tags": [
+        "pickup",
+        "chest",
+        "treasure",
+        "loot",
+        "reward",
+        "gold",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 139,
+      "size": [
+        176,
+        112
+      ],
+      "pivot": [
+        88,
+        96
+      ],
+      "resource": "res://assets/pixelfx/pickups/chest-open/chest-open.tres"
+    },
+    {
+      "id": "pickups/coin-spin",
+      "name": "Coin spin",
+      "description": "A thick gold coin turning on its edge: an embossed star face, a reeded rim showing as it goes edge-on, a flash sweeping the face, bobbing over its shadow.",
+      "tags": [
+        "pickup",
+        "coin",
+        "gold",
+        "money",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 48,
+      "size": [
+        56,
+        56
+      ],
+      "pivot": [
+        28,
+        48
+      ],
+      "resource": "res://assets/pixelfx/pickups/coin-spin/coin-spin.tres"
+    },
+    {
+      "id": "pickups/collect-burst",
+      "name": "Collect burst",
+      "description": "The moment of pickup: a white flash and a cross of light, a thin ring snapping out ahead of a softer one, twinkles thrown wide on curving paths that brake, hang and wink out.",
+      "tags": [
+        "pickup",
+        "collect",
+        "burst",
+        "sparkle",
+        "reward",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 42,
+      "size": [
+        112,
+        108
+      ],
+      "pivot": [
+        56,
+        94
+      ],
+      "resource": "res://assets/pixelfx/pickups/collect-burst/collect-burst.tres"
+    },
+    {
+      "id": "pickups/crystal-shard",
+      "name": "Crystal shard",
+      "description": "A broken amber shard hovers and sways: chipped uneven faces, its top sheared off, light pulsing up through glowing cracks and flaring out of the break; splinters orbit it.",
+      "tags": [
+        "pickup",
+        "crystal",
+        "shard",
+        "relic",
+        "broken",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 96,
+      "size": [
+        64,
+        76
+      ],
+      "pivot": [
+        32,
+        68
+      ],
+      "resource": "res://assets/pixelfx/pickups/crystal-shard/crystal-shard.tres"
+    },
+    {
+      "id": "pickups/gem-spin",
+      "name": "Gem spin",
+      "description": "A brilliant-cut ruby turning on its axis: real facets catch the light in turn, flashes roll over the crown, refracted light slides across the floor, sparkles wink round it.",
+      "tags": [
+        "pickup",
+        "gem",
+        "jewel",
+        "treasure",
+        "ruby",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        56
+      ],
+      "resource": "res://assets/pixelfx/pickups/gem-spin/gem-spin.tres"
+    },
+    {
+      "id": "pickups/heart-pickup",
+      "name": "Heart pickup",
+      "description": "A plump glossy heart hovering over its shadow beats lub-dub: a big squash and stretch, a smaller echo, light and a thin ring pulsing out, tiny hearts drifting off.",
+      "tags": [
+        "pickup",
+        "heart",
+        "health",
+        "life",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 36,
+      "size": [
+        56,
+        60
+      ],
+      "pivot": [
+        28,
+        52
+      ],
+      "resource": "res://assets/pixelfx/pickups/heart-pickup/heart-pickup.tres"
+    },
+    {
+      "id": "pickups/key-glint",
+      "name": "Key glint",
+      "description": "An ornate silver key hovering and rocking; a glint runs from its bow down the shaft to the teeth and bursts off the tip as falling sparks.",
+      "tags": [
+        "pickup",
+        "key",
+        "unlock",
+        "item",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 60,
+      "size": [
+        72,
+        60
+      ],
+      "pivot": [
+        36,
+        54
+      ],
+      "resource": "res://assets/pixelfx/pickups/key-glint/key-glint.tres"
+    },
+    {
+      "id": "pickups/loot-beam",
+      "name": "Loot beam",
+      "description": "A dropped sword in a tall pillar of rarity light: a white core thinning to the sky, rings pulsing across the floor, motes streaming up, a glint racing up the shaft.",
+      "tags": [
+        "pickup",
+        "loot",
+        "beam",
+        "rarity",
+        "drop",
+        "item",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        96,
+        176
+      ],
+      "pivot": [
+        48,
+        162
+      ],
+      "resource": "res://assets/pixelfx/pickups/loot-beam/loot-beam.tres"
+    },
+    {
+      "id": "pickups/potion",
+      "name": "Potion",
+      "description": "A round glass flask of glowing brew rocks in the air: the brew sloshes behind the rock, bubbles rise and pop, light glows through the glass, wisps curl off the cork.",
+      "tags": [
+        "pickup",
+        "potion",
+        "flask",
+        "brew",
+        "magic",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        56,
+        72
+      ],
+      "pivot": [
+        28,
+        64
+      ],
+      "resource": "res://assets/pixelfx/pickups/potion/potion.tres"
+    },
+    {
+      "id": "pickups/power-star",
+      "name": "Power star",
+      "description": "A fat bevelled star rocks side to side and swells on each beat, rays of light turning slowly behind it, sparks spinning off its points.",
+      "tags": [
+        "pickup",
+        "star",
+        "power-up",
+        "invincible",
+        "bonus",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 48,
+      "size": [
+        88,
+        84
+      ],
+      "pivot": [
+        44,
+        76
+      ],
+      "resource": "res://assets/pixelfx/pickups/power-star/power-star.tres"
+    },
+    {
+      "id": "pickups/xp-orb",
+      "name": "XP orb",
+      "description": "A small glowing orb races a figure-eight, a comet tail tapering behind it along its path, flecks shed from the tail winking out, its light following it over the floor.",
+      "tags": [
+        "pickup",
+        "xp",
+        "orb",
+        "experience",
+        "energy",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 54,
+      "size": [
+        72,
+        56
+      ],
+      "pivot": [
+        36,
+        48
+      ],
+      "resource": "res://assets/pixelfx/pickups/xp-orb/xp-orb.tres"
+    },
+    {
+      "id": "projectiles/arrow",
+      "name": "Arrow",
+      "description": "An arrow in flight: a steel broadhead catching the light, a wooden shaft, fletching fluttering in the wind, streaks of air peeling off its head and swirling off its feathers.",
+      "tags": [
+        "projectile",
+        "arrow",
+        "bow",
+        "medieval",
+        "directional",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 18,
+      "size": [
+        112,
+        32
+      ],
+      "pivot": [
+        92,
+        16
+      ],
+      "resource": "res://assets/pixelfx/projectiles/arrow/arrow.tres"
+    },
+    {
+      "id": "projectiles/bullet-tracer",
+      "name": "Bullet tracer",
+      "description": "A white-hot slug tearing along, its tracer burning behind it in a long streak that sputters and cools from white through gold to red, shedding sparks and a thread of smoke.",
+      "tags": [
+        "projectile",
+        "bullet",
+        "tracer",
+        "gun",
+        "directional",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 18,
+      "size": [
+        200,
+        40
+      ],
+      "pivot": [
+        184,
+        18
+      ],
+      "resource": "res://assets/pixelfx/projectiles/bullet-tracer/bullet-tracer.tres"
+    },
+    {
+      "id": "projectiles/cannonball",
+      "name": "Cannon shot",
+      "description": "A cannon fires from a muzzle `height` px above the floor (the origin): a white flash, a tongue of flame, the ball arcing off trailing smoke, a big gunsmoke cloud rolling out.",
+      "tags": [
+        "projectile",
+        "cannon",
+        "cannonball",
+        "smoke",
+        "flash",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 115,
+      "size": [
+        208,
+        116
+      ],
+      "pivot": [
+        48,
+        102
+      ],
+      "resource": "res://assets/pixelfx/projectiles/cannonball/cannonball.tres"
+    },
+    {
+      "id": "projectiles/energy-disc",
+      "name": "Energy disc",
+      "description": "A sawblade of crackling energy spinning flat out as it flies: hooked teeth bright on their leading edges, a white hub, spiral arms churning, sparks flung off the teeth.",
+      "tags": [
+        "projectile",
+        "disc",
+        "saw",
+        "energy",
+        "sci-fi",
+        "directional",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 15,
+      "size": [
+        120,
+        52
+      ],
+      "pivot": [
+        92,
+        26
+      ],
+      "resource": "res://assets/pixelfx/projectiles/energy-disc/energy-disc.tres"
+    },
+    {
+      "id": "projectiles/flare",
+      "name": "Signal flare",
+      "description": "A signal flare streaks up off the ground trailing sparks and smoke, bursts, and hangs as a pulsing red star that drips sparks under its own red-lit smoke, then gutters out.",
+      "tags": [
+        "projectile",
+        "flare",
+        "signal",
+        "fire",
+        "smoke",
+        "light",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 151,
+      "size": [
+        152,
+        232
+      ],
+      "pivot": [
+        76,
+        226
+      ],
+      "resource": "res://assets/pixelfx/projectiles/flare/flare.tres"
+    },
+    {
+      "id": "projectiles/homing-missile",
+      "name": "Homing missile",
+      "description": "A missile kicks off, arcs up, rolls over and dives onto its target (the origin), its smoke trail left hanging in the air, and hits in a fiery blast of flame, sparks and rocks.",
+      "tags": [
+        "projectile",
+        "missile",
+        "rocket",
+        "homing",
+        "smoke",
+        "explosion",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 115,
+      "size": [
+        248,
+        140
+      ],
+      "pivot": [
+        160,
+        120
+      ],
+      "resource": "res://assets/pixelfx/projectiles/homing-missile/homing-missile.tres"
+    },
+    {
+      "id": "projectiles/laser-bolt",
+      "name": "Laser bolt",
+      "description": "A red laser bolt: a white-hot core in a rounded head, red bands tapering back, pulses racing down it, a tail that shimmers apart into wavering dashes.",
+      "tags": [
+        "projectile",
+        "laser",
+        "energy",
+        "sci-fi",
+        "directional",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 15,
+      "size": [
+        128,
+        32
+      ],
+      "pivot": [
+        108,
+        16
+      ],
+      "resource": "res://assets/pixelfx/projectiles/laser-bolt/laser-bolt.tres"
+    },
+    {
+      "id": "projectiles/magic-missile",
+      "name": "Magic missile",
+      "description": "Motes gather into an arcane orb at a hand `height` px above the floor (the origin); it weaves to its target trailing a twisting ribbon and bursts into a star of light.",
+      "tags": [
+        "projectile",
+        "magic",
+        "arcane",
+        "missile",
+        "spell",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 58,
+      "size": [
+        208,
+        112
+      ],
+      "pivot": [
+        24,
+        104
+      ],
+      "resource": "res://assets/pixelfx/projectiles/magic-missile/magic-missile.tres"
+    },
+    {
+      "id": "projectiles/muzzle-pistol",
+      "name": "Pistol shot",
+      "description": "One pistol shot from a muzzle `height` px above the floor (the origin): a spiky white-cored flash, sparks, a curl of smoke hooking up and back, a casing that bounces and settles.",
+      "tags": [
+        "projectile",
+        "muzzle",
+        "gun",
+        "pistol",
+        "flash",
+        "smoke",
+        "casing",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 55,
+      "size": [
+        96,
+        72
+      ],
+      "pivot": [
+        44,
+        66
+      ],
+      "resource": "res://assets/pixelfx/projectiles/muzzle-pistol/muzzle-pistol.tres"
+    },
+    {
+      "id": "projectiles/muzzle-shotgun",
+      "name": "Shotgun blast",
+      "description": "A shotgun blast from a muzzle `height` px above the floor (the origin): a wide ragged fan of flame, pellet streaks, a heavy rolling smoke cloud, a red shell kicked out on the pump.",
+      "tags": [
+        "projectile",
+        "muzzle",
+        "gun",
+        "shotgun",
+        "flash",
+        "smoke",
+        "casing",
+        "directional",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 97,
+      "size": [
+        160,
+        88
+      ],
+      "pivot": [
+        44,
+        82
+      ],
+      "resource": "res://assets/pixelfx/projectiles/muzzle-shotgun/muzzle-shotgun.tres"
+    },
+    {
+      "id": "projectiles/muzzle-smg",
+      "name": "SMG burst",
+      "description": "Sustained fire at twelve rounds a second: each shot a different spiky flash with a white core, sparks, smoke wisps piling up and drifting, brass casings bouncing on the floor.",
+      "tags": [
+        "projectile",
+        "muzzle",
+        "gun",
+        "automatic",
+        "flash",
+        "smoke",
+        "casing",
+        "directional",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 30,
+      "size": [
+        112,
+        72
+      ],
+      "pivot": [
+        56,
+        66
+      ],
+      "resource": "res://assets/pixelfx/projectiles/muzzle-smg/muzzle-smg.tres"
+    },
+    {
+      "id": "projectiles/plasma-shot",
+      "name": "Plasma shot",
+      "description": "A glowing plasma blob: hot knots churning in its core, a corona crackling over its skin, its tail necking into droplets that tear off, cool and wink out behind.",
+      "tags": [
+        "projectile",
+        "plasma",
+        "energy",
+        "sci-fi",
+        "directional",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 24,
+      "size": [
+        144,
+        60
+      ],
+      "pivot": [
+        108,
+        30
+      ],
+      "resource": "res://assets/pixelfx/projectiles/plasma-shot/plasma-shot.tres"
+    },
+    {
+      "id": "projectiles/rocket",
+      "name": "Rocket",
+      "description": "A steel rocket roars along: a flickering jet with shock diamonds and a white-hot nozzle, a thick billowing smoke trail lit by the flame, sparks shed behind.",
+      "tags": [
+        "projectile",
+        "rocket",
+        "missile",
+        "smoke",
+        "fire",
+        "directional",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 36,
+      "size": [
+        288,
+        76
+      ],
+      "pivot": [
+        252,
+        42
+      ],
+      "resource": "res://assets/pixelfx/projectiles/rocket/rocket.tres"
+    },
+    {
+      "id": "scifi/emp-blast",
+      "name": "EMP blast",
+      "description": "A disc charge ticks, pops white, and a bubble of rolling scanlines swells out with arcs crawling its skin; it strobes, tears and shorts out into falling dead pixels.",
+      "tags": [
+        "scifi",
+        "emp",
+        "pulse",
+        "shockwave",
+        "electric",
+        "grenade",
+        "glitch",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 97,
+      "size": [
+        152,
+        116
+      ],
+      "pivot": [
+        76,
+        84
+      ],
+      "resource": "res://assets/pixelfx/scifi/emp-blast/emp-blast.tres"
+    },
+    {
+      "id": "scifi/energy-core",
+      "name": "Energy core",
+      "description": "A plasma core beating in a steel cage: it swells and throws a shock ring on each beat, two tilted rings orbit it, and arcs jump to the bars and spark.",
+      "tags": [
+        "scifi",
+        "reactor",
+        "core",
+        "power",
+        "plasma",
+        "machine",
+        "prop",
+        "ground",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        112,
+        100
+      ],
+      "pivot": [
+        56,
+        88
+      ],
+      "resource": "res://assets/pixelfx/scifi/energy-core/energy-core.tres"
+    },
+    {
+      "id": "scifi/force-field",
+      "name": "Force field",
+      "description": "A glassy dome of hex plates over the hero: plates glint, tracers from the right slam into it, a ripple and cracks of light race across, sparks glance off.",
+      "tags": [
+        "scifi",
+        "shield",
+        "barrier",
+        "dome",
+        "hex",
+        "hit",
+        "defense",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        184,
+        104
+      ],
+      "pivot": [
+        76,
+        84
+      ],
+      "resource": "res://assets/pixelfx/scifi/force-field/force-field.tres"
+    },
+    {
+      "id": "scifi/glitch",
+      "name": "Glitch",
+      "description": "The hero's signal breaks up in bursts: an RGB split, slices torn sideways, rows smeared out, junk blocks and dead pixels, then snaps back clean.",
+      "tags": [
+        "scifi",
+        "glitch",
+        "digital",
+        "corrupt",
+        "hologram",
+        "status",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        88,
+        64
+      ],
+      "pivot": [
+        44,
+        54
+      ],
+      "resource": "res://assets/pixelfx/scifi/glitch/glitch.tres"
+    },
+    {
+      "id": "scifi/hologram",
+      "name": "Hologram",
+      "description": "A floor projector throws a cone of light holding a turning wireframe model: scanlines roll through it, a data ring circles it, and it flickers, tears and jitters.",
+      "tags": [
+        "scifi",
+        "hologram",
+        "projector",
+        "wireframe",
+        "display",
+        "glitch",
+        "ground",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 120,
+      "size": [
+        112,
+        104
+      ],
+      "pivot": [
+        56,
+        92
+      ],
+      "resource": "res://assets/pixelfx/scifi/hologram/hologram.tres"
+    },
+    {
+      "id": "scifi/jetpack",
+      "name": "Jetpack",
+      "description": "Twin thrusters fire straight down: white-hot cores with shock diamonds inside ragged flames, puffs that cool into smoke billowing below, lit by the fire.",
+      "tags": [
+        "scifi",
+        "jetpack",
+        "thrust",
+        "rocket",
+        "fire",
+        "smoke",
+        "flight",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 60,
+      "size": [
+        96,
+        116
+      ],
+      "pivot": [
+        48,
+        30
+      ],
+      "resource": "res://assets/pixelfx/scifi/jetpack/jetpack.tres"
+    },
+    {
+      "id": "scifi/laser-grid",
+      "name": "Laser grid",
+      "description": "Security lasers between two steel posts: red beams slide and scissor across, dust and haze light up only where they cut through, and the floor sweepers scorch and spark.",
+      "tags": [
+        "scifi",
+        "laser",
+        "security",
+        "trap",
+        "hazard",
+        "beam",
+        "ground",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 90,
+      "size": [
+        128,
+        84
+      ],
+      "pivot": [
+        64,
+        76
+      ],
+      "resource": "res://assets/pixelfx/scifi/laser-grid/laser-grid.tres"
+    },
+    {
+      "id": "scifi/scanner",
+      "name": "Scanner",
+      "description": "Brackets snap onto the hero, a scan line sweeps head to toe leaving a cooling outline, and a readout counts up to OK before it all lets go.",
+      "tags": [
+        "scifi",
+        "scan",
+        "target",
+        "hud",
+        "tech",
+        "status",
+        "ui",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 96,
+      "size": [
+        112,
+        78
+      ],
+      "pivot": [
+        42,
+        58
+      ],
+      "resource": "res://assets/pixelfx/scifi/scanner/scanner.tres"
+    },
+    {
+      "id": "scifi/teleporter-pad",
+      "name": "Teleporter pad",
+      "description": "A steel pad glows on the floor, its rings rippling outward; a soft column of light rises off it and rings of light lift away, sparkles drifting up through them.",
+      "tags": [
+        "scifi",
+        "teleporter",
+        "pad",
+        "portal",
+        "beam",
+        "spawn",
+        "ground",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        96,
+        104
+      ],
+      "pivot": [
+        48,
+        92
+      ],
+      "resource": "res://assets/pixelfx/scifi/teleporter-pad/teleporter-pad.tres"
+    },
+    {
+      "id": "scifi/tractor-beam",
+      "name": "Tractor beam",
+      "description": "A hovering pod projects a cone of light to the floor; rocks tear loose in puffs of dust and spiral up spinning into the lens while rings of light climb the beam.",
+      "tags": [
+        "scifi",
+        "beam",
+        "tractor",
+        "lift",
+        "abduct",
+        "debris",
+        "ground",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 90,
+      "size": [
+        120,
+        132
+      ],
+      "pivot": [
+        60,
+        114
+      ],
+      "resource": "res://assets/pixelfx/scifi/tractor-beam/tractor-beam.tres"
+    },
+    {
+      "id": "scifi/warp-in",
+      "name": "Warp in",
+      "description": "A beam slams down, rings run down it and a scanline paints the hero in from head to toe, white-hot pixels cooling to their own colors; the beam pinches shut in sparks.",
+      "tags": [
+        "scifi",
+        "teleport",
+        "warp",
+        "beam",
+        "spawn",
+        "arrive",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 91,
+      "size": [
+        192,
+        168
+      ],
+      "pivot": [
+        96,
+        128
+      ],
+      "resource": "res://assets/pixelfx/scifi/warp-in/warp-in.tres"
+    },
+    {
+      "id": "scifi/warp-out",
+      "name": "Warp out",
+      "description": "The hero's outline flickers on, they flash white and break into light from the head down, streaming up a beam that lifts off the floor and pinches shut.",
+      "tags": [
+        "scifi",
+        "teleport",
+        "warp",
+        "beam",
+        "despawn",
+        "leave",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 79,
+      "size": [
+        128,
+        168
+      ],
+      "pivot": [
+        64,
+        128
+      ],
+      "resource": "res://assets/pixelfx/scifi/warp-out/warp-out.tres"
+    },
+    {
+      "id": "shadow/black-hole",
+      "name": "Black hole",
+      "description": "A tilted disk of banded rings turns round a black hole, its far side bent up over the top and under the bottom; debris spirals in, stretches and is swallowed.",
+      "tags": [
+        "shadow",
+        "black-hole",
+        "void",
+        "space",
+        "gravity",
+        "dark",
+        "magic",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 120,
+      "size": [
+        184,
+        132
+      ],
+      "pivot": [
+        92,
+        124
+      ],
+      "resource": "res://assets/pixelfx/shadow/black-hole/black-hole.tres"
+    },
+    {
+      "id": "shadow/curse",
+      "name": "Curse",
+      "description": "Wisps gather over the head, a skull stamps down with a flash, its eyes burn as the curse floods the body violet, then it cracks and crumbles.",
+      "tags": [
+        "shadow",
+        "curse",
+        "debuff",
+        "skull",
+        "status",
+        "dark",
+        "magic",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 103,
+      "size": [
+        112,
+        124
+      ],
+      "pivot": [
+        56,
+        108
+      ],
+      "resource": "res://assets/pixelfx/shadow/curse/curse.tres"
+    },
+    {
+      "id": "shadow/dark-explosion",
+      "name": "Dark explosion",
+      "description": "Motes swirl into a pulsing core, a black star cuts across a violet-white flash, and a black sphere burns at the rim, throws lit shards and smoke, then collapses.",
+      "tags": [
+        "shadow",
+        "explosion",
+        "void",
+        "dark",
+        "magic",
+        "impact",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 115,
+      "size": [
+        280,
+        248
+      ],
+      "pivot": [
+        140,
+        206
+      ],
+      "resource": "res://assets/pixelfx/shadow/dark-explosion/dark-explosion.tres"
+    },
+    {
+      "id": "shadow/eclipse",
+      "name": "Eclipse",
+      "description": "A black moon over the sun: a breathing pearl corona with long streamers, a thin white rim, and one diamond bead blazing on its edge.",
+      "tags": [
+        "shadow",
+        "eclipse",
+        "moon",
+        "sun",
+        "corona",
+        "sky",
+        "magic",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 120,
+      "size": [
+        160,
+        144
+      ],
+      "pivot": [
+        80,
+        72
+      ],
+      "resource": "res://assets/pixelfx/shadow/eclipse/eclipse.tres"
+    },
+    {
+      "id": "shadow/grasping-hands",
+      "name": "Grasping hands",
+      "description": "Shadow arms burst up out of a dark pool with a splash, clench their hands into claws, strain, and are dragged back under, fingers clawing at the air.",
+      "tags": [
+        "shadow",
+        "hands",
+        "arms",
+        "grab",
+        "ground",
+        "dark",
+        "magic",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 94,
+      "size": [
+        200,
+        116
+      ],
+      "pivot": [
+        100,
+        100
+      ],
+      "resource": "res://assets/pixelfx/shadow/grasping-hands/grasping-hands.tres"
+    },
+    {
+      "id": "shadow/hex-sigil",
+      "name": "Hex sigil",
+      "description": "A burning pen traces a cursed sigil in the air, its glyphs pop in one by one, then it flares white and crumbles into falling embers.",
+      "tags": [
+        "shadow",
+        "hex",
+        "sigil",
+        "rune",
+        "curse",
+        "magic",
+        "circle",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 127,
+      "size": [
+        168,
+        128
+      ],
+      "pivot": [
+        84,
+        112
+      ],
+      "resource": "res://assets/pixelfx/shadow/hex-sigil/hex-sigil.tres"
+    },
+    {
+      "id": "shadow/life-steal",
+      "name": "Life steal",
+      "description": "A target on the right is struck and bleeds red orbs; they hang a moment, then whip home as comet streaks and flood the caster crimson.",
+      "tags": [
+        "shadow",
+        "life-steal",
+        "drain",
+        "blood",
+        "heal",
+        "directional",
+        "magic",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 67,
+      "size": [
+        184,
+        100
+      ],
+      "pivot": [
+        36,
+        92
+      ],
+      "resource": "res://assets/pixelfx/shadow/life-steal/life-steal.tres"
+    },
+    {
+      "id": "shadow/necro-skulls",
+      "name": "Necro skulls",
+      "description": "Spectral skulls circle a cold green flame on a tilted orbit, passing behind and before it, eyes lit, trailing curls of ghost smoke.",
+      "tags": [
+        "shadow",
+        "necromancy",
+        "skull",
+        "orbit",
+        "ghost",
+        "spectral",
+        "magic",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 90,
+      "size": [
+        136,
+        116
+      ],
+      "pivot": [
+        68,
+        108
+      ],
+      "resource": "res://assets/pixelfx/shadow/necro-skulls/necro-skulls.tres"
+    },
+    {
+      "id": "shadow/shadow-flames",
+      "name": "Shadow flames",
+      "description": "Inside-out fire on the floor: a black heart wrapped in violet flame with pale skin and tips, shedding embers and dark smoke.",
+      "tags": [
+        "shadow",
+        "fire",
+        "flame",
+        "ground",
+        "dark",
+        "magic",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        104,
+        112
+      ],
+      "pivot": [
+        52,
+        102
+      ],
+      "resource": "res://assets/pixelfx/shadow/shadow-flames/shadow-flames.tres"
+    },
+    {
+      "id": "shadow/shadow-tendrils",
+      "name": "Shadow tendrils",
+      "description": "A dark pool opens on the floor; tentacles with lit rims and hooked tips lash up out of it with a splash, writhe, and sink back as it closes.",
+      "tags": [
+        "shadow",
+        "tentacle",
+        "tendril",
+        "ground",
+        "dark",
+        "magic",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 97,
+      "size": [
+        208,
+        130
+      ],
+      "pivot": [
+        104,
+        106
+      ],
+      "resource": "res://assets/pixelfx/shadow/shadow-tendrils/shadow-tendrils.tres"
+    },
+    {
+      "id": "shadow/soul-drain",
+      "name": "Soul drain",
+      "description": "Pale souls are torn loose on the right and dragged down a funnel of streaks into a black crystal vessel, which flares violet as each one lands.",
+      "tags": [
+        "shadow",
+        "soul",
+        "drain",
+        "necromancy",
+        "funnel",
+        "directional",
+        "magic",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 96,
+      "size": [
+        208,
+        120
+      ],
+      "pivot": [
+        40,
+        110
+      ],
+      "resource": "res://assets/pixelfx/shadow/soul-drain/soul-drain.tres"
+    },
+    {
+      "id": "shadow/void-orb",
+      "name": "Void orb",
+      "description": "A black orb hangs in the air, a pale rim crawling round it; a dark vortex winds into it, motes and streaks are pulled in, and light bends round its edge.",
+      "tags": [
+        "shadow",
+        "void",
+        "orb",
+        "vortex",
+        "dark",
+        "magic",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 96,
+      "size": [
+        168,
+        160
+      ],
+      "pivot": [
+        84,
+        150
+      ],
+      "resource": "res://assets/pixelfx/shadow/void-orb/void-orb.tres"
+    },
+    {
+      "id": "spawn/coin-drop",
+      "name": "Coin drop",
+      "description": "An enemy goes up in a soft poof and gold coins spin out of it, bounce with a glint on each hit, settle on the floor, twinkle, and wink out one by one.",
+      "tags": [
+        "spawn",
+        "death",
+        "loot",
+        "coins",
+        "gold",
+        "drop",
+        "pickup",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 91,
+      "size": [
+        160,
+        88
+      ],
+      "pivot": [
+        80,
+        78
+      ],
+      "resource": "res://assets/pixelfx/spawn/coin-drop/coin-drop.tres"
+    },
+    {
+      "id": "spawn/disintegrate",
+      "name": "Disintegrate",
+      "description": "The character crackles with light, flashes white, then peels away from the head down: each pixel flares white-hot and streams off on the wind as a cooling mote of light.",
+      "tags": [
+        "spawn",
+        "death",
+        "disintegrate",
+        "dissolve",
+        "pixels",
+        "energy",
+        "light",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 103,
+      "size": [
+        176,
+        100
+      ],
+      "pivot": [
+        48,
+        86
+      ],
+      "resource": "res://assets/pixelfx/spawn/disintegrate/disintegrate.tres"
+    },
+    {
+      "id": "spawn/dissolve-burn",
+      "name": "Dissolve burn",
+      "description": "An ember seam lights at the feet and climbs the body: above it the body scorches and smoulders, at it flames lick up, below it there's only falling ash, embers and smoke.",
+      "tags": [
+        "spawn",
+        "death",
+        "burn",
+        "fire",
+        "ash",
+        "dissolve",
+        "embers",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 109,
+      "size": [
+        96,
+        112
+      ],
+      "pivot": [
+        48,
+        100
+      ],
+      "resource": "res://assets/pixelfx/spawn/dissolve-burn/dissolve-burn.tres"
+    },
+    {
+      "id": "spawn/egg-hatch",
+      "name": "Egg hatch",
+      "description": "A speckled egg rocks three times, each rock cracking it further with warm light leaking out, then pops: light pours out of the opening and lit shell halves tumble away.",
+      "tags": [
+        "spawn",
+        "egg",
+        "hatch",
+        "birth",
+        "crack",
+        "shell",
+        "light",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 94,
+      "size": [
+        120,
+        96
+      ],
+      "pivot": [
+        60,
+        84
+      ],
+      "resource": "res://assets/pixelfx/spawn/egg-hatch/egg-hatch.tres"
+    },
+    {
+      "id": "spawn/poof",
+      "name": "Poof",
+      "description": "A cartoon death poof: a white pop, a ring of soft round smoke balls bursting out between speed lines, little stars spinning off, and the cloud lifting and thinning away.",
+      "tags": [
+        "spawn",
+        "death",
+        "despawn",
+        "smoke",
+        "poof",
+        "cartoon",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 49,
+      "size": [
+        112,
+        92
+      ],
+      "pivot": [
+        56,
+        80
+      ],
+      "resource": "res://assets/pixelfx/spawn/poof/poof.tres"
+    },
+    {
+      "id": "spawn/respawn-beam",
+      "name": "Respawn beam",
+      "description": "A guide line drops, a pillar of light slams onto the spot, and a scan bar climbs from the feet writing the character back in row by row, white-hot lines cooling to its colors.",
+      "tags": [
+        "spawn",
+        "respawn",
+        "beam",
+        "teleport",
+        "scanline",
+        "light",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 76,
+      "size": [
+        128,
+        150
+      ],
+      "pivot": [
+        64,
+        136
+      ],
+      "resource": "res://assets/pixelfx/spawn/respawn-beam/respawn-beam.tres"
+    },
+    {
+      "id": "spawn/shatter-death",
+      "name": "Shatter death",
+      "description": "Frost races up the body and seals it in faceted ice, a glint sweeps it, cracks spread from the chest, then it bursts into its own facets that tumble, bounce and melt.",
+      "tags": [
+        "spawn",
+        "death",
+        "ice",
+        "freeze",
+        "shatter",
+        "shards",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 100,
+      "size": [
+        172,
+        96
+      ],
+      "pivot": [
+        84,
+        84
+      ],
+      "resource": "res://assets/pixelfx/spawn/shatter-death/shatter-death.tres"
+    },
+    {
+      "id": "spawn/soul-rise",
+      "name": "Soul rise",
+      "description": "The body's outline flares and dims, then a pale glowing copy of it lifts out, stretching as its legs melt into a rippling wisp, shedding motes until it thins into light.",
+      "tags": [
+        "spawn",
+        "death",
+        "soul",
+        "ghost",
+        "spirit",
+        "rise",
+        "light",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 97,
+      "size": [
+        96,
+        140
+      ],
+      "pivot": [
+        48,
+        126
+      ],
+      "resource": "res://assets/pixelfx/spawn/soul-rise/soul-rise.tres"
+    },
+    {
+      "id": "spawn/spawn-portal",
+      "name": "Spawn portal",
+      "description": "A rift tears open on the floor and swirls, belches violet smoke and sparks, spits a fountain of wisps up out of itself, then twists shut with a pop.",
+      "tags": [
+        "spawn",
+        "portal",
+        "summon",
+        "rift",
+        "arcane",
+        "smoke",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 115,
+      "size": [
+        208,
+        150
+      ],
+      "pivot": [
+        104,
+        122
+      ],
+      "resource": "res://assets/pixelfx/spawn/spawn-portal/spawn-portal.tres"
+    },
+    {
+      "id": "spawn/summon-rise",
+      "name": "Summon rise",
+      "description": "A rune circle burns into the floor, the ground bursts, and a horned brute heaves up out of it through dust and rubble, lit from below, until its eyes flare.",
+      "tags": [
+        "spawn",
+        "summon",
+        "demon",
+        "rise",
+        "runes",
+        "dust",
+        "rubble",
+        "ground",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 139,
+      "size": [
+        176,
+        116
+      ],
+      "pivot": [
+        88,
+        94
+      ],
+      "resource": "res://assets/pixelfx/spawn/summon-rise/summon-rise.tres"
+    },
+    {
+      "id": "status/bleeding",
+      "name": "Bleeding",
+      "description": "Bleeding out: beads swell at three wounds, run, let go and fall to spatter into a glossy pool that ripples; each heartbeat spurts a little and flashes the body red.",
+      "tags": [
+        "status",
+        "bleed",
+        "blood",
+        "dot",
+        "debuff",
+        "wound",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        60,
+        56
+      ],
+      "pivot": [
+        30,
+        46
+      ],
+      "resource": "res://assets/pixelfx/status/bleeding/bleeding.tres"
+    },
+    {
+      "id": "status/burning",
+      "name": "Burning",
+      "description": "Burning over time: small flames lick from four hot spots, trailing sparks and thin smoke; every 0.6 s they flare, the body flashes white then orange, scorch marks spread.",
+      "tags": [
+        "status",
+        "fire",
+        "burn",
+        "dot",
+        "debuff",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 36,
+      "size": [
+        72,
+        80
+      ],
+      "pivot": [
+        36,
+        70
+      ],
+      "resource": "res://assets/pixelfx/status/burning/burning.tres"
+    },
+    {
+      "id": "status/charmed",
+      "name": "Charmed",
+      "description": "Smitten: a big heart beats over the head, throwing a ring and a flush of light with every beat, little hearts float up, the eyes go pink and the cheeks blush.",
+      "tags": [
+        "status",
+        "charm",
+        "love",
+        "hearts",
+        "debuff",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        60,
+        76
+      ],
+      "pivot": [
+        30,
+        68
+      ],
+      "resource": "res://assets/pixelfx/status/charmed/charmed.tres"
+    },
+    {
+      "id": "status/confused",
+      "name": "Confused",
+      "description": "Head in a spin: a glowing spiral whirls over the head, question marks pop up round it and bob, the eyes dart left and right.",
+      "tags": [
+        "status",
+        "confused",
+        "confusion",
+        "dizzy",
+        "debuff",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        60,
+        78
+      ],
+      "pivot": [
+        30,
+        70
+      ],
+      "resource": "res://assets/pixelfx/status/confused/confused.tres"
+    },
+    {
+      "id": "status/cursed",
+      "name": "Cursed",
+      "description": "Hexed: violet smoke rises off the body in winding trails, a dark stain creeps up from the feet with a glowing edge, the eyes burn, a skull glitches in overhead.",
+      "tags": [
+        "status",
+        "curse",
+        "hex",
+        "dark",
+        "debuff",
+        "shadow",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        64,
+        84
+      ],
+      "pivot": [
+        32,
+        76
+      ],
+      "resource": "res://assets/pixelfx/status/cursed/cursed.tres"
+    },
+    {
+      "id": "status/frozen",
+      "name": "Frozen",
+      "description": "Chilled to the bone: frost ferns creep over the body, icicles hang from chin and hands and drip, breath steams, snow settles, a shiver every second, frost spreads underfoot.",
+      "tags": [
+        "status",
+        "ice",
+        "freeze",
+        "frozen",
+        "cold",
+        "chill",
+        "debuff",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 60,
+      "size": [
+        72,
+        64
+      ],
+      "pivot": [
+        36,
+        54
+      ],
+      "resource": "res://assets/pixelfx/status/frozen/frozen.tres"
+    },
+    {
+      "id": "status/haste",
+      "name": "Haste",
+      "description": "Sped up: striped after-images stream out behind, speed lines whip past, dust kicks off the heels and the leading edge catches the wind. Faces right.",
+      "tags": [
+        "status",
+        "haste",
+        "speed",
+        "fast",
+        "buff",
+        "directional",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 36,
+      "size": [
+        100,
+        56
+      ],
+      "pivot": [
+        64,
+        48
+      ],
+      "resource": "res://assets/pixelfx/status/haste/haste.tres"
+    },
+    {
+      "id": "status/petrified",
+      "name": "Petrified",
+      "description": "Turned to stone: grey creeps up from the feet behind a crackling edge that spits grit, the statue holds, cracks run through it, and it bursts into tumbling chunks and dust.",
+      "tags": [
+        "status",
+        "stone",
+        "petrify",
+        "petrified",
+        "debuff",
+        "death",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 115,
+      "size": [
+        120,
+        74
+      ],
+      "pivot": [
+        60,
+        64
+      ],
+      "resource": "res://assets/pixelfx/status/petrified/petrified.tres"
+    },
+    {
+      "id": "status/poisoned",
+      "name": "Poisoned",
+      "description": "Sick to the bone: green rolls up the body in waves, dark veins creep from a wound, toxic sweat drips and hisses; every 0.8 s it wobbles, blisters pop and a ring pulses out.",
+      "tags": [
+        "status",
+        "poison",
+        "toxic",
+        "dot",
+        "debuff",
+        "sick",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 48,
+      "size": [
+        72,
+        64
+      ],
+      "pivot": [
+        36,
+        54
+      ],
+      "resource": "res://assets/pixelfx/status/poisoned/poisoned.tres"
+    },
+    {
+      "id": "status/rage",
+      "name": "Rage",
+      "description": "Seething: the body judders on every heartbeat, an anger mark throbs at the temple, eyes burn, steam jets off the head, stress lines flash out and the floor cracks hot underfoot.",
+      "tags": [
+        "status",
+        "rage",
+        "berserk",
+        "anger",
+        "buff",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 36,
+      "size": [
+        80,
+        80
+      ],
+      "pivot": [
+        40,
+        70
+      ],
+      "resource": "res://assets/pixelfx/status/rage/rage.tres"
+    },
+    {
+      "id": "status/sleep",
+      "name": "Sleep",
+      "description": "Fast asleep: eyes shut, soft outlined Zs float up off the head one after another, swaying and growing as they rise, dream motes drift, a slow breathing glow.",
+      "tags": [
+        "status",
+        "sleep",
+        "zzz",
+        "rest",
+        "debuff",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        60,
+        82
+      ],
+      "pivot": [
+        26,
+        74
+      ],
+      "resource": "res://assets/pixelfx/status/sleep/sleep.tres"
+    },
+    {
+      "id": "status/slowed",
+      "name": "Slowed",
+      "description": "Dragged through time: a glassy clock dial behind the head ticks round in heavy steps, flashing with each, while drops sink in slow motion and spread slow rings.",
+      "tags": [
+        "status",
+        "slow",
+        "time",
+        "clock",
+        "debuff",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        64,
+        76
+      ],
+      "pivot": [
+        32,
+        68
+      ],
+      "resource": "res://assets/pixelfx/status/slowed/slowed.tres"
+    },
+    {
+      "id": "status/stunned",
+      "name": "Stunned",
+      "description": "Seeing stars: three spinning stars and two little birds circle the head on a tilted ring, ducking behind it and sweeping round in front, trailing glitter.",
+      "tags": [
+        "status",
+        "stun",
+        "dizzy",
+        "daze",
+        "stars",
+        "birds",
+        "debuff",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 60,
+      "size": [
+        60,
+        64
+      ],
+      "pivot": [
+        30,
+        56
+      ],
+      "resource": "res://assets/pixelfx/status/stunned/stunned.tres"
+    },
+    {
+      "id": "transitions/blinds",
+      "name": "Blinds",
+      "description": "Slats catch the light edge-on, then tilt shut top to bottom, lit rims glinting as warm light squeezes through the closing gaps with dust in it; then they tilt open and fade.",
+      "tags": [
+        "transition",
+        "screen",
+        "blinds",
+        "slats",
+        "light",
+        "wipe",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 61,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "resource": "res://assets/pixelfx/transitions/blinds/blinds.tres"
+    },
+    {
+      "id": "transitions/burn-away",
+      "name": "Burn away",
+      "description": "The screen burns in from its edges behind a ragged ember line of licking flames, embers and smoke; then the black smoulders and burns open from the middle.",
+      "tags": [
+        "transition",
+        "screen",
+        "burn",
+        "fire",
+        "embers",
+        "smoke",
+        "wipe",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 91,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "resource": "res://assets/pixelfx/transitions/burn-away/burn-away.tres"
+    },
+    {
+      "id": "transitions/crt-off",
+      "name": "CRT off",
+      "description": "The picture squeezes into a white-hot glowing line, the line into a dot that lingers as a fading afterglow; then it switches back on, dot to line to picture, with a warm-up glow.",
+      "tags": [
+        "transition",
+        "screen",
+        "crt",
+        "tv",
+        "retro",
+        "switch",
+        "wipe",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 61,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "resource": "res://assets/pixelfx/transitions/crt-off/crt-off.tres"
+    },
+    {
+      "id": "transitions/diamond-wipe",
+      "name": "Diamond wipe",
+      "description": "A wave of faceted diamonds swells across the screen, rims bright and ridges lit, cooling to black as they lock; then they rise as gems again and shrink away with glints.",
+      "tags": [
+        "transition",
+        "screen",
+        "diamond",
+        "lattice",
+        "geometric",
+        "wipe",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 61,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "resource": "res://assets/pixelfx/transitions/diamond-wipe/diamond-wipe.tres"
+    },
+    {
+      "id": "transitions/glitch-wipe",
+      "name": "Glitch wipe",
+      "description": "Torn bands of black stutter across the screen, freezing and jerking back, their ragged edges split into magenta and cyan ghosts spitting data slivers; then they tear on through.",
+      "tags": [
+        "transition",
+        "screen",
+        "glitch",
+        "digital",
+        "rgb",
+        "bands",
+        "wipe",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 55,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "resource": "res://assets/pixelfx/transitions/glitch-wipe/glitch-wipe.tres"
+    },
+    {
+      "id": "transitions/iris",
+      "name": "Iris",
+      "description": "A lit iris closes onto a warm spotlight where dust drifts, holds as its rim twinkles, snaps shut into a glint, then pops open from a flash with a white-hot rim throwing sparks.",
+      "tags": [
+        "transition",
+        "screen",
+        "iris",
+        "circle",
+        "spotlight",
+        "wipe",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 67,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "resource": "res://assets/pixelfx/transitions/iris/iris.tres"
+    },
+    {
+      "id": "transitions/pixel-dissolve",
+      "name": "Pixel dissolve",
+      "description": "Clumps of blocks wink in, each drawn in a white outline that fills black and cools, with glints; then they wink out, outlines collapsing, the last small ones sparkling away.",
+      "tags": [
+        "transition",
+        "screen",
+        "dissolve",
+        "pixel",
+        "blocks",
+        "glint",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 67,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "resource": "res://assets/pixelfx/transitions/pixel-dissolve/pixel-dissolve.tres"
+    },
+    {
+      "id": "transitions/shatter-wipe",
+      "name": "Shatter wipe",
+      "description": "A dark glass pane drops over the screen and bounces; cracks race out from an impact with a flash, then it bursts into tumbling glass shards with lit edges that fall away.",
+      "tags": [
+        "transition",
+        "screen",
+        "shatter",
+        "glass",
+        "break",
+        "shards",
+        "wipe",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 85,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "resource": "res://assets/pixelfx/transitions/shatter-wipe/shatter-wipe.tres"
+    },
+    {
+      "id": "transitions/slash-wipe",
+      "name": "Slash wipe",
+      "description": "A white-hot blade edge slices across the screen, light ahead of it and sparks spraying back over the cover; a second cut flashes through and the cover splits apart.",
+      "tags": [
+        "transition",
+        "screen",
+        "slash",
+        "blade",
+        "cut",
+        "sparks",
+        "wipe",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 52,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "resource": "res://assets/pixelfx/transitions/slash-wipe/slash-wipe.tres"
+    },
+    {
+      "id": "transitions/star-iris",
+      "name": "Star iris",
+      "description": "A five-point star iris spins shut on the middle of the screen, its gold rim lit and its tips twinkling and shedding motes; it closes on a glint and spins open again from a flash.",
+      "tags": [
+        "transition",
+        "screen",
+        "iris",
+        "star",
+        "gold",
+        "wipe",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 67,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        0,
+        0
+      ],
+      "resource": "res://assets/pixelfx/transitions/star-iris/star-iris.tres"
+    },
+    {
+      "id": "ui/achievement",
+      "name": "Achievement",
+      "description": "A toast slides in on speed lines and settles; a gold medal pops onto it in a burst of sparkles, a shine sweeps the whole toast, then it slides away.",
+      "tags": [
+        "ui",
+        "achievement",
+        "toast",
+        "medal",
+        "reward",
+        "text",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 73,
+      "size": [
+        220,
+        72
+      ],
+      "pivot": [
+        110,
+        36
+      ],
+      "resource": "res://assets/pixelfx/ui/achievement/achievement.tres"
+    },
+    {
+      "id": "ui/coin-collect",
+      "name": "Coin collect",
+      "description": "A coin bursts into a fountain of spinning coins that hang, then zip one by one into a HUD counter that pops and ticks up, glints and folds away.",
+      "tags": [
+        "ui",
+        "coins",
+        "pickup",
+        "reward",
+        "hud",
+        "counter",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 75,
+      "size": [
+        176,
+        116
+      ],
+      "pivot": [
+        60,
+        102
+      ],
+      "resource": "res://assets/pixelfx/ui/coin-collect/coin-collect.tres"
+    },
+    {
+      "id": "ui/combo-counter",
+      "name": "Combo counter",
+      "description": "x5 COMBO rockets in on streaming speed lines, smearing, and slams to a stop: a white flash, a ring, sparks; it pulses while a timer bar drains, then whooshes out.",
+      "tags": [
+        "ui",
+        "combo",
+        "counter",
+        "combat",
+        "text",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 45,
+      "size": [
+        208,
+        100
+      ],
+      "pivot": [
+        104,
+        50
+      ],
+      "resource": "res://assets/pixelfx/ui/combo-counter/combo-counter.tres"
+    },
+    {
+      "id": "ui/confetti",
+      "name": "Confetti",
+      "description": "Two party poppers bang one after the other: paper bits and curly streamers burst out, stall, then tumble and flutter down, flipping, and settle on the floor.",
+      "tags": [
+        "ui",
+        "celebration",
+        "confetti",
+        "party",
+        "reward",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 103,
+      "size": [
+        200,
+        140
+      ],
+      "pivot": [
+        100,
+        126
+      ],
+      "resource": "res://assets/pixelfx/ui/confetti/confetti.tres"
+    },
+    {
+      "id": "ui/countdown",
+      "name": "Countdown",
+      "description": "3, 2, 1 slam into a timer ring that drains like a burning fuse, throwing sparks; then GO! bursts out as the ring blows into a shockwave with rays.",
+      "tags": [
+        "ui",
+        "countdown",
+        "start",
+        "timer",
+        "text",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 94,
+      "size": [
+        152,
+        136
+      ],
+      "pivot": [
+        76,
+        68
+      ],
+      "resource": "res://assets/pixelfx/ui/countdown/countdown.tres"
+    },
+    {
+      "id": "ui/crit-number",
+      "name": "Crit number",
+      "description": "CRIT 128! slams in huge and white over a jagged starburst with a hard shake and speed lines, cools to fire, holds with a shine, then pops into sparks.",
+      "tags": [
+        "ui",
+        "critical",
+        "damage",
+        "number",
+        "combat",
+        "text",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 46,
+      "size": [
+        152,
+        120
+      ],
+      "pivot": [
+        76,
+        60
+      ],
+      "resource": "res://assets/pixelfx/ui/crit-number/crit-number.tres"
+    },
+    {
+      "id": "ui/damage-number",
+      "name": "Damage number",
+      "description": "A red -27 punches out of a hit spark, white for a frame, arcs up, lands with a squash and a little hop, then fades as it lifts away.",
+      "tags": [
+        "ui",
+        "damage",
+        "number",
+        "combat",
+        "text",
+        "hit",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 33,
+      "size": [
+        76,
+        68
+      ],
+      "pivot": [
+        30,
+        52
+      ],
+      "resource": "res://assets/pixelfx/ui/damage-number/damage-number.tres"
+    },
+    {
+      "id": "ui/exclamation",
+      "name": "Exclamation",
+      "description": "A bold ! springs up off the hero's head, stretching as it shoots up and squashing as it lands; surprise ticks flick out, it wobbles, then pops away.",
+      "tags": [
+        "ui",
+        "alert",
+        "surprise",
+        "emote",
+        "character",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 43,
+      "size": [
+        84,
+        104
+      ],
+      "pivot": [
+        42,
+        92
+      ],
+      "resource": "res://assets/pixelfx/ui/exclamation/exclamation.tres"
+    },
+    {
+      "id": "ui/health-bar-hit",
+      "name": "Health bar hit",
+      "description": "A segmented health bar takes a hit: it jolts and dips, the lost chunk flashes white and sheds chips, holds, then drains away behind a sparking edge.",
+      "tags": [
+        "ui",
+        "health",
+        "hud",
+        "damage",
+        "bar",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 61,
+      "size": [
+        160,
+        64
+      ],
+      "pivot": [
+        80,
+        30
+      ],
+      "resource": "res://assets/pixelfx/ui/health-bar-hit/health-bar-hit.tres"
+    },
+    {
+      "id": "ui/heart-lost",
+      "name": "Heart lost",
+      "description": "A HUD heart is hit: it flashes white and jolts, a crack runs down it, it splits into two halves that tumble away, leaving an empty socket that fades.",
+      "tags": [
+        "ui",
+        "health",
+        "heart",
+        "hud",
+        "damage",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 46,
+      "size": [
+        96,
+        88
+      ],
+      "pivot": [
+        48,
+        34
+      ],
+      "resource": "res://assets/pixelfx/ui/heart-lost/heart-lost.tres"
+    },
+    {
+      "id": "ui/level-up",
+      "name": "Level up",
+      "description": "Gold gathers at the feet and bursts up as a pillar of light round the hero; rings climb it, LEVEL UP! drops in letter by letter, a shine sweeps it, sparkles twinkle.",
+      "tags": [
+        "ui",
+        "level",
+        "reward",
+        "text",
+        "light",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 97,
+      "size": [
+        176,
+        138
+      ],
+      "pivot": [
+        88,
+        114
+      ],
+      "resource": "res://assets/pixelfx/ui/level-up/level-up.tres"
+    },
+    {
+      "id": "ui/quest-complete",
+      "name": "Quest complete",
+      "description": "A stitched ribbon unrolls from the middle, QUEST COMPLETE types on letter by letter, a gold seal stamps down and ticks, stars pop; then it all rolls away.",
+      "tags": [
+        "ui",
+        "quest",
+        "banner",
+        "reward",
+        "text",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 79,
+      "size": [
+        204,
+        92
+      ],
+      "pivot": [
+        102,
+        46
+      ],
+      "resource": "res://assets/pixelfx/ui/quest-complete/quest-complete.tres"
+    },
+    {
+      "id": "water/bubbles",
+      "name": "Bubbles",
+      "description": "Bubbles stream up from a vent of pebbles, wobbling and swelling as they rise, flare as they cross shafts of light from the surface, then dome up and pop there.",
+      "tags": [
+        "water",
+        "bubbles",
+        "underwater",
+        "vent",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 120,
+      "size": [
+        104,
+        112
+      ],
+      "pivot": [
+        52,
+        104
+      ],
+      "resource": "res://assets/pixelfx/water/bubbles/bubbles.tres"
+    },
+    {
+      "id": "water/drip",
+      "name": "Drip",
+      "description": "A bead swells under a wet stone tip and catches the light, pinches off, falls stretched by its speed and plinks into a puddle with a crown, a ring and a tiny rebound.",
+      "tags": [
+        "water",
+        "drip",
+        "drop",
+        "puddle",
+        "cave",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 48,
+      "size": [
+        72,
+        88
+      ],
+      "pivot": [
+        36,
+        78
+      ],
+      "resource": "res://assets/pixelfx/water/drip/drip.tres"
+    },
+    {
+      "id": "water/fountain",
+      "name": "Fountain",
+      "description": "A stone basin; a jet rises from its spout and blooms into glassy arcs that break into beads, fall back and plink into the water with rings.",
+      "tags": [
+        "water",
+        "fountain",
+        "jet",
+        "basin",
+        "prop",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 60,
+      "size": [
+        120,
+        104
+      ],
+      "pivot": [
+        60,
+        96
+      ],
+      "resource": "res://assets/pixelfx/water/fountain/fountain.tres"
+    },
+    {
+      "id": "water/geyser",
+      "name": "Geyser",
+      "description": "A pool heaves and burbles faster and faster, then blasts a white column of water skyward with a churning foam head; it rains back down in drops and steam, slumps and sputters out.",
+      "tags": [
+        "water",
+        "geyser",
+        "eruption",
+        "steam",
+        "column",
+        "nature",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 151,
+      "size": [
+        184,
+        168
+      ],
+      "pivot": [
+        92,
+        146
+      ],
+      "resource": "res://assets/pixelfx/water/geyser/geyser.tres"
+    },
+    {
+      "id": "water/rain-splash",
+      "name": "Rain splash",
+      "description": "A low close-up on one puddle in the rain: big drops land in crowns that throw beads and a rebound jet, rings spread and interfere, a lamp's reflection wobbles on the water.",
+      "tags": [
+        "water",
+        "rain",
+        "splash",
+        "puddle",
+        "close-up",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 72,
+      "size": [
+        176,
+        80
+      ],
+      "pivot": [
+        88,
+        50
+      ],
+      "resource": "res://assets/pixelfx/water/rain-splash/rain-splash.tres"
+    },
+    {
+      "id": "water/ripples",
+      "name": "Ripples",
+      "description": "A drop plinks on still dark water and rings spread out across it at a low angle: the swell of each ring catches the light, crests glint, and they fade into the calm.",
+      "tags": [
+        "water",
+        "ripples",
+        "rings",
+        "surface",
+        "pond",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 60,
+      "size": [
+        136,
+        52
+      ],
+      "pivot": [
+        68,
+        30
+      ],
+      "resource": "res://assets/pixelfx/water/ripples/ripples.tres"
+    },
+    {
+      "id": "water/splash",
+      "name": "Splash",
+      "description": "A stone drops into still water: a white hit, a crown that tears into droplets arcing out to plink down with rings, a jet that bounces back, foam and drifting mist.",
+      "tags": [
+        "water",
+        "splash",
+        "impact",
+        "drop",
+        "liquid",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 76,
+      "size": [
+        176,
+        100
+      ],
+      "pivot": [
+        88,
+        78
+      ],
+      "resource": "res://assets/pixelfx/water/splash/splash.tres"
+    },
+    {
+      "id": "water/water-jet",
+      "name": "Water jet",
+      "description": "A pressurised stream blasts right: a tight glassy rod with surges running down it that swells, roughens, bends under its weight and breaks into chunks, spray and mist.",
+      "tags": [
+        "water",
+        "jet",
+        "stream",
+        "hose",
+        "spray",
+        "directional",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 30,
+      "size": [
+        188,
+        80
+      ],
+      "pivot": [
+        14,
+        32
+      ],
+      "resource": "res://assets/pixelfx/water/water-jet/water-jet.tres"
+    },
+    {
+      "id": "water/water-orb",
+      "name": "Water orb",
+      "description": "A sphere of water floats and wobbles: a current circles inside it, the floor shows upside down through it, it shines, light gathers on the floor under it, and drips fall and plink.",
+      "tags": [
+        "water",
+        "orb",
+        "sphere",
+        "magic",
+        "float",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 90,
+      "size": [
+        100,
+        108
+      ],
+      "pivot": [
+        50,
+        100
+      ],
+      "resource": "res://assets/pixelfx/water/water-orb/water-orb.tres"
+    },
+    {
+      "id": "water/waterfall",
+      "name": "Waterfall",
+      "description": "A river pours from a notch in a rock outcrop: a white curl, a deep sheet that splits into strands, churning foam, spray, drifting mist and rings on a dark pool.",
+      "tags": [
+        "water",
+        "waterfall",
+        "cascade",
+        "foam",
+        "mist",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 60,
+      "size": [
+        144,
+        136
+      ],
+      "pivot": [
+        72,
+        118
+      ],
+      "resource": "res://assets/pixelfx/water/waterfall/waterfall.tres"
+    },
+    {
+      "id": "water/wave-crash",
+      "name": "Wave crash",
+      "description": "A swell rolls in and steepens, its lip throws forward and curls over a dark barrel, then crashes into a burst of white foam and spray that surges on and fades to lace.",
+      "tags": [
+        "water",
+        "wave",
+        "crash",
+        "surf",
+        "foam",
+        "spray",
+        "one-shot"
+      ],
+      "loop": false,
+      "fps": 30,
+      "frames": 97,
+      "size": [
+        224,
+        104
+      ],
+      "pivot": [
+        112,
+        86
+      ],
+      "resource": "res://assets/pixelfx/water/wave-crash/wave-crash.tres"
+    },
+    {
+      "id": "water/whirlpool",
+      "name": "Whirlpool",
+      "description": "Seen from above, dark water winds into a vortex: foam arms spiral in, darkening as they're drawn down into a deep eye with a lit far rim, flecks of foam circling in after them.",
+      "tags": [
+        "water",
+        "whirlpool",
+        "vortex",
+        "maelstrom",
+        "swirl",
+        "top-down",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 90,
+      "size": [
+        128,
+        84
+      ],
+      "pivot": [
+        64,
+        42
+      ],
+      "resource": "res://assets/pixelfx/water/whirlpool/whirlpool.tres"
+    },
+    {
+      "id": "weather/aurora",
+      "name": "Aurora",
+      "description": "Rippling curtains of green-to-violet light over a starfield: folding hems burn bright, rays shimmer up into violet, and the whole sky slowly breathes.",
+      "tags": [
+        "weather",
+        "aurora",
+        "northern lights",
+        "sky",
+        "night",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 360,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        160,
+        180
+      ],
+      "resource": "res://assets/pixelfx/weather/aurora/aurora.tres"
+    },
+    {
+      "id": "weather/blizzard",
+      "name": "Blizzard",
+      "description": "Snow driven almost flat by a gale: streaks at three depths race past, gusts throw translucent sheets of snow across the sky and spindrift streams off the drifts.",
+      "tags": [
+        "weather",
+        "blizzard",
+        "snow",
+        "wind",
+        "storm",
+        "winter",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 240,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        160,
+        170
+      ],
+      "resource": "res://assets/pixelfx/weather/blizzard/blizzard.tres"
+    },
+    {
+      "id": "weather/cherry-blossoms",
+      "name": "Cherry blossoms",
+      "description": "Pink petals flutter down on a spring breeze, tumbling in little spirals and flashing as they catch the light, with a few whole blossoms spinning among them.",
+      "tags": [
+        "weather",
+        "cherry blossom",
+        "sakura",
+        "petals",
+        "spring",
+        "wind",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 300,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        160,
+        170
+      ],
+      "resource": "res://assets/pixelfx/weather/cherry-blossoms/cherry-blossoms.tres"
+    },
+    {
+      "id": "weather/clouds",
+      "name": "Clouds",
+      "description": "Layers of clouds drift past a bright moon at night: silver-lit tops, dark bellies, edges that flare where they cross the moon, forming and thinning as they go.",
+      "tags": [
+        "weather",
+        "clouds",
+        "moon",
+        "night",
+        "sky",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 360,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        160,
+        180
+      ],
+      "resource": "res://assets/pixelfx/weather/clouds/clouds.tres"
+    },
+    {
+      "id": "weather/falling-leaves",
+      "name": "Falling leaves",
+      "description": "Autumn leaves swing down through the air, tilting and flipping to show their pale backs, ride a gust, land flat in the litter and fade.",
+      "tags": [
+        "weather",
+        "leaves",
+        "autumn",
+        "fall",
+        "wind",
+        "nature",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 300,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        160,
+        170
+      ],
+      "resource": "res://assets/pixelfx/weather/falling-leaves/falling-leaves.tres"
+    },
+    {
+      "id": "weather/fireflies",
+      "name": "Fireflies",
+      "description": "Fireflies wander over a meadow at night, each glowing up and fading on its own rhythm, trailing light and lighting the grass tips beneath them.",
+      "tags": [
+        "weather",
+        "fireflies",
+        "night",
+        "glow",
+        "meadow",
+        "nature",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 360,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        160,
+        170
+      ],
+      "resource": "res://assets/pixelfx/weather/fireflies/fireflies.tres"
+    },
+    {
+      "id": "weather/fog",
+      "name": "Fog",
+      "description": "Slow banks of moonlit fog at three depths drift past each other, crests catching the light, while thin streaks of mist slide by in front.",
+      "tags": [
+        "weather",
+        "fog",
+        "mist",
+        "haze",
+        "night",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 360,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        160,
+        170
+      ],
+      "resource": "res://assets/pixelfx/weather/fog/fog.tres"
+    },
+    {
+      "id": "weather/god-rays",
+      "name": "God rays",
+      "description": "Shafts of light slant down from high on the left, breathing and swaying, pooling on the floor, as drifting dust motes light up whenever they cross a beam.",
+      "tags": [
+        "weather",
+        "god rays",
+        "light",
+        "sunbeam",
+        "dust",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 300,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        160,
+        170
+      ],
+      "resource": "res://assets/pixelfx/weather/god-rays/god-rays.tres"
+    },
+    {
+      "id": "weather/rain",
+      "name": "Rain",
+      "description": "Slanted rain at four depths: far drops fade into the dark, near ones glint and splash, drops ring the puddles and a low mist drifts over the wet floor.",
+      "tags": [
+        "weather",
+        "rain",
+        "storm",
+        "water",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 240,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        160,
+        170
+      ],
+      "resource": "res://assets/pixelfx/weather/rain/rain.tres"
+    },
+    {
+      "id": "weather/shooting-stars",
+      "name": "Shooting stars",
+      "description": "Meteors burn across a starry sky, white heads trailing gold and rose; the big ones flare and break up, and each leaves a glowing train that twists and fades.",
+      "tags": [
+        "weather",
+        "meteor",
+        "shooting star",
+        "night",
+        "sky",
+        "stars",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 300,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        160,
+        180
+      ],
+      "resource": "res://assets/pixelfx/weather/shooting-stars/shooting-stars.tres"
+    },
+    {
+      "id": "weather/snow",
+      "name": "Snow",
+      "description": "Snow at three depths in a gusty breeze: far specks, drifting flakes, big near crystals that spin and glow; they settle on a sparkling drift and melt away.",
+      "tags": [
+        "weather",
+        "snow",
+        "winter",
+        "cold",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 360,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        160,
+        170
+      ],
+      "resource": "res://assets/pixelfx/weather/snow/snow.tres"
+    },
+    {
+      "id": "weather/storm",
+      "name": "Storm",
+      "description": "Driving rain at two depths under a churning cloud deck; a forked bolt strikes in a double flash that lights the sky and the rain, then sheet lightning glows in the clouds.",
+      "tags": [
+        "weather",
+        "storm",
+        "rain",
+        "lightning",
+        "thunder",
+        "ambient",
+        "loop"
+      ],
+      "loop": true,
+      "fps": 30,
+      "frames": 300,
+      "size": [
+        320,
+        180
+      ],
+      "pivot": [
+        160,
+        170
+      ],
+      "resource": "res://assets/pixelfx/weather/storm/storm.tres"
+    }
+  ]
+}

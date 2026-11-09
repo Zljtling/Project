@@ -1,0 +1,1206 @@
+{
+  "repository": "https://github.com/patch-gg/pixelfx",
+  "commit": "a84159688af3ca37a4be05a0d422b94451b2e24e",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha": "74eff5d22b4195a2b1690d1c769fd5f2537e7cf6"
+    },
+    {
+      "path": "NOTICE.md",
+      "sha": "bd049df57f92b448b6b106e0fc01fc71cbdb8dd2"
+    },
+    {
+      "path": "README.md",
+      "sha": "0c3824779db873c22a251d19bd9e7ab65c90e244"
+    },
+    {
+      "path": "docs/AUTHORING.md",
+      "sha": "7d6b258386771a365d3dbf6ae078c3c7e8faf896"
+    },
+    {
+      "path": "docs/CATALOG.md",
+      "sha": "3c11f5fa6b69f233341a03b92552521a7ab2e56c"
+    },
+    {
+      "path": "package.json",
+      "sha": "5ffd9d1065d82e608adb803f8138937b35c66d3f"
+    },
+    {
+      "path": "src/core/act.js",
+      "sha": "731e56c89512650bb56dcc9318e495a2b14dd85e"
+    },
+    {
+      "path": "src/core/actor.js",
+      "sha": "d6824aceada5fd8f696df4312f0ec4486f82b06b"
+    },
+    {
+      "path": "src/core/chain.js",
+      "sha": "c816e89170277c16d2820548c2b31ace6f797e0d"
+    },
+    {
+      "path": "src/core/color.js",
+      "sha": "60cdedd3352b3a682ef0391f4b3957918b5756d3"
+    },
+    {
+      "path": "src/core/font.js",
+      "sha": "1aa816b802fff7beb490548eeb792049ec824da0"
+    },
+    {
+      "path": "src/core/fx.js",
+      "sha": "1acacba6e8cf7c7ded76c5cfc8b02c128f8f1fc7"
+    },
+    {
+      "path": "src/core/index.js",
+      "sha": "14b3144cb33068271221f1766994b627660d5d93"
+    },
+    {
+      "path": "src/core/math.js",
+      "sha": "90356680e4696072b6fc8faedcc9ac15ef42ae9d"
+    },
+    {
+      "path": "src/core/painter.js",
+      "sha": "4f397dbf558e29ad04fcba9e45488b4ee588bb39"
+    },
+    {
+      "path": "src/core/particles.js",
+      "sha": "345c67fbea7cfa5f03e1591bb428a18abdd0263b"
+    },
+    {
+      "path": "src/core/poses.js",
+      "sha": "c6a9daa3b945405b53d7d49ff072bb0a8499f1e8"
+    },
+    {
+      "path": "src/core/rig.js",
+      "sha": "525b7145624f53722fde335503cdf271d3958ca5"
+    },
+    {
+      "path": "src/core/scene.js",
+      "sha": "04b61a341eaf062c46ad5dfe028428ec909db33f"
+    },
+    {
+      "path": "src/core/shapes.js",
+      "sha": "a59200b40f137b5852b1f8917dc6c7209f6ffe45"
+    },
+    {
+      "path": "src/core/sim.js",
+      "sha": "68f1a7097a6cf263b03d61a5144cfdb3938e4850"
+    },
+    {
+      "path": "src/fx/arcane/_lib.js",
+      "sha": "ce40f1a53c5ae66184faf4a38ea3409f8d455541"
+    },
+    {
+      "path": "src/fx/arcane/arcane-beam.js",
+      "sha": "7ac65ffe9f01a05aba85be08dc31c2c836f0cd33"
+    },
+    {
+      "path": "src/fx/arcane/arcane-missiles.js",
+      "sha": "e992bce1af5fd7f2f8013cf428458528392d225b"
+    },
+    {
+      "path": "src/fx/arcane/arcane-orb.js",
+      "sha": "ed84392d5cda7e6eb8bdabf24c8b63b98a721570"
+    },
+    {
+      "path": "src/fx/arcane/blink-in.js",
+      "sha": "ae7ec5071adacf19538e28d2d6022cd00315d1b6"
+    },
+    {
+      "path": "src/fx/arcane/blink-out.js",
+      "sha": "d905aa3977e9461ec92b829d19a005dbdae43b71"
+    },
+    {
+      "path": "src/fx/arcane/magic-circle-cast.js",
+      "sha": "c95d98a086eae877fb894717d3c2931d8bcf7e58"
+    },
+    {
+      "path": "src/fx/arcane/mana-burst.js",
+      "sha": "85b6735b58c0b932db53a20953879ea58d1ea26e"
+    },
+    {
+      "path": "src/fx/arcane/portal.js",
+      "sha": "ddd71b9bd069b29ec4fb839fb5c2e200815794bb"
+    },
+    {
+      "path": "src/fx/arcane/rune-circle.js",
+      "sha": "6520ffdb3ed1da3cd00a1e69677b18da3d815c05"
+    },
+    {
+      "path": "src/fx/arcane/spell-charge.js",
+      "sha": "c59d187dbba27d6926385f9977b1758587605eb0"
+    },
+    {
+      "path": "src/fx/arcane/star-fall.js",
+      "sha": "cb62831324b95e0ffcbdd2aa718fabe8c5bf0f0e"
+    },
+    {
+      "path": "src/fx/arcane/time-stop.js",
+      "sha": "c617f57cccb3b6a7b9128179a0506da8b5042086"
+    },
+    {
+      "path": "src/fx/categories.js",
+      "sha": "4721e654cbfd997e22f5e1ca1291b1e780164390"
+    },
+    {
+      "path": "src/fx/critters/_lib.js",
+      "sha": "4505e39fe72adae06dcb3f36e195ddb6f7f6ab7c"
+    },
+    {
+      "path": "src/fx/critters/bat.js",
+      "sha": "bb60862a9fe26d3e00fe58773a460dbcd266bc5c"
+    },
+    {
+      "path": "src/fx/critters/bird.js",
+      "sha": "e07fc4063a8a120d0226f0dd9dbce0327ec33d7e"
+    },
+    {
+      "path": "src/fx/critters/butterfly.js",
+      "sha": "ebb916c077997a34d948548b7680676e69a38530"
+    },
+    {
+      "path": "src/fx/critters/eyeball.js",
+      "sha": "54f541c6bb691e9e18e6adf435ca3b97a68d17d0"
+    },
+    {
+      "path": "src/fx/critters/fish-school.js",
+      "sha": "7b626afa3f515a87fb6be2e0fb2b6d637071df4f"
+    },
+    {
+      "path": "src/fx/critters/flying-skull.js",
+      "sha": "0e2ff5f742c831ec1c45ae9e414f14b500771223"
+    },
+    {
+      "path": "src/fx/critters/frog.js",
+      "sha": "5c116ce43223212e7dc4f6f5ccff3313435106c9"
+    },
+    {
+      "path": "src/fx/critters/ghost.js",
+      "sha": "d50863cfe7cc0590910d3b14631e64c0b0d0cbaf"
+    },
+    {
+      "path": "src/fx/critters/jellyfish.js",
+      "sha": "4b4ae31b79407a7054ea105af99e7affba32b61a"
+    },
+    {
+      "path": "src/fx/critters/slime.js",
+      "sha": "a1a6d37a2f7da3b6d7a29b4f08aedc67198458b8"
+    },
+    {
+      "path": "src/fx/critters/snake.js",
+      "sha": "d9fc950685332b36a9f76633d83e5214dcca7d76"
+    },
+    {
+      "path": "src/fx/critters/wisp.js",
+      "sha": "64e55041da44c6ca073ee889a067d5eb03f133fb"
+    },
+    {
+      "path": "src/fx/explosions/_lib.js",
+      "sha": "5fef53c22ad77b63afd0cfe30da073b820670484"
+    },
+    {
+      "path": "src/fx/explosions/barrel-explosion.js",
+      "sha": "626b63b7e7ea1969801787b5a96aa53eb7c6d742"
+    },
+    {
+      "path": "src/fx/explosions/big-explosion.js",
+      "sha": "c65b9b28822279573830d7d6eb2ba4afbd7e5de4"
+    },
+    {
+      "path": "src/fx/explosions/cartoon-pow.js",
+      "sha": "69d44c838179847dea45c527d62156cbc682fcbd"
+    },
+    {
+      "path": "src/fx/explosions/dirt-explosion.js",
+      "sha": "98730262d42acee9259c349636706e9bc9dd6012"
+    },
+    {
+      "path": "src/fx/explosions/firework-burst.js",
+      "sha": "dc7475a501431e83fef1792620f86f87b72a6dcd"
+    },
+    {
+      "path": "src/fx/explosions/firework-rocket.js",
+      "sha": "6e11a9b0ea200b9e36d80d5e2889f9138cc5f3ec"
+    },
+    {
+      "path": "src/fx/explosions/grenade.js",
+      "sha": "9445937985bf8cbf63fcb1d708cc634c463bcea9"
+    },
+    {
+      "path": "src/fx/explosions/implosion.js",
+      "sha": "a5688ab93bdd3199533cc2f6f1b378f5734eef8d"
+    },
+    {
+      "path": "src/fx/explosions/nuke.js",
+      "sha": "b06c5b836f1eab8d1a5c4cb7842223221ba1b0b8"
+    },
+    {
+      "path": "src/fx/explosions/plasma-explosion.js",
+      "sha": "5ab1c800b2a6785f63d41e6e5a1c8bb7d075dfef"
+    },
+    {
+      "path": "src/fx/explosions/small-explosion.js",
+      "sha": "64b98a2976bf623829fe4bc9bdfc2b4ae894672a"
+    },
+    {
+      "path": "src/fx/explosions/smoke-bomb.js",
+      "sha": "e6b0cad38117f632250654efdd7e528425229d99"
+    },
+    {
+      "path": "src/fx/fire/_lib.js",
+      "sha": "f39107f588c1e887b29e7e7c798bb53b89626531"
+    },
+    {
+      "path": "src/fx/fire/brazier.js",
+      "sha": "0f9ab2b138afd733a34503395505b37f34ea68a7"
+    },
+    {
+      "path": "src/fx/fire/campfire.js",
+      "sha": "2ff5b492f2751ccc43795044d69b33571fd4eb63"
+    },
+    {
+      "path": "src/fx/fire/candle.js",
+      "sha": "a2b32eefcb47b8bb88edd5e6d02900d9693a5724"
+    },
+    {
+      "path": "src/fx/fire/fire-breath.js",
+      "sha": "70d1a94480248c1d881afcf96f76329b3cb2d9ca"
+    },
+    {
+      "path": "src/fx/fire/fire-ring.js",
+      "sha": "94591eab6f9e00c1b3bcfc5cf23bb6af0574d6f9"
+    },
+    {
+      "path": "src/fx/fire/fire-tornado.js",
+      "sha": "97f818d4fed54128218e3393e32fd60e5c3d889b"
+    },
+    {
+      "path": "src/fx/fire/fireball.js",
+      "sha": "cacac879984d9ffb8a8ed34d0770744eb0f57fb6"
+    },
+    {
+      "path": "src/fx/fire/flame-pillar.js",
+      "sha": "c840c42a7a29e1e7fa7816fe44b6d24a91e3e22f"
+    },
+    {
+      "path": "src/fx/fire/flamethrower.js",
+      "sha": "fd7a2da6ad55ef6fca734298aed7baf819d954ce"
+    },
+    {
+      "path": "src/fx/fire/meteor.js",
+      "sha": "8b88172ce84b477c859cafe32755a2f72c75a250"
+    },
+    {
+      "path": "src/fx/fire/spirit-flame.js",
+      "sha": "1142e5c6e108414e8367ccf6433249bf2db22149"
+    },
+    {
+      "path": "src/fx/fire/torch.js",
+      "sha": "e4fc006bf9ce6b4c54f06869fdac765498f5a1d0"
+    },
+    {
+      "path": "src/fx/holy/_lib.js",
+      "sha": "fbf39afb15e8ca554c0ea472cf92bbb476b33cee"
+    },
+    {
+      "path": "src/fx/holy/blessing.js",
+      "sha": "e3e0ed7add397cb71b4c001e6633497aad44fb3c"
+    },
+    {
+      "path": "src/fx/holy/divine-shield.js",
+      "sha": "0fb54d67ab10c4b06c3255562c441a709480fbe2"
+    },
+    {
+      "path": "src/fx/holy/feather-burst.js",
+      "sha": "16c0cd2393b027c12a763e9d722193efca1bf675"
+    },
+    {
+      "path": "src/fx/holy/halo.js",
+      "sha": "cd89a1b1703a0a88a94bd76d18577d657bff8c50"
+    },
+    {
+      "path": "src/fx/holy/heal-aoe.js",
+      "sha": "5e7c9d9fa3dccdc9a73c541397f1dcc06a43f75c"
+    },
+    {
+      "path": "src/fx/holy/heal.js",
+      "sha": "b6640aeffdc0d855bb6afe9ac2724f67646e3349"
+    },
+    {
+      "path": "src/fx/holy/holy-pillar.js",
+      "sha": "0bb153e1bc9959fcbc492c18cf6689260bff39db"
+    },
+    {
+      "path": "src/fx/holy/resurrection.js",
+      "sha": "3e58ca3ab5ef83a5080fa92aa74305a065f927c2"
+    },
+    {
+      "path": "src/fx/holy/smite.js",
+      "sha": "bbfe3825e06e97aece43af1099acaf5f3e3a379b"
+    },
+    {
+      "path": "src/fx/holy/sunburst.js",
+      "sha": "2083d4e40049dd9e9b183fddb7db37b640c6bfd9"
+    },
+    {
+      "path": "src/fx/ice/_lib.js",
+      "sha": "1a65e9d66a449ec346d2e8c2d36180e81d731f4b"
+    },
+    {
+      "path": "src/fx/ice/blizzard-vortex.js",
+      "sha": "bd397bfc79222dfb4c2ecc5268e8a019e175544f"
+    },
+    {
+      "path": "src/fx/ice/freeze.js",
+      "sha": "471f08c7fcdb2f031927a0456498f543d2d64fbe"
+    },
+    {
+      "path": "src/fx/ice/frost-breath.js",
+      "sha": "0afac88eb09d5e236e07158bedae7b180c9cb55e"
+    },
+    {
+      "path": "src/fx/ice/frost-nova.js",
+      "sha": "ed3ad0e118a720f167f779bb81d5cb2b2623aab2"
+    },
+    {
+      "path": "src/fx/ice/ice-crystal.js",
+      "sha": "cf0330c93189518219ee68e86f6c49ee04ba2c1c"
+    },
+    {
+      "path": "src/fx/ice/ice-lance.js",
+      "sha": "f9541cde4698d2c8270776088b0bf2d85c44cd6c"
+    },
+    {
+      "path": "src/fx/ice/ice-shatter.js",
+      "sha": "0167dbb72c3374ef1826c6d5fffeb3bd96628822"
+    },
+    {
+      "path": "src/fx/ice/ice-spikes.js",
+      "sha": "3dfab7eec367e17d933e0421966ae634b9f2660d"
+    },
+    {
+      "path": "src/fx/ice/icicle-fall.js",
+      "sha": "108d204e2082c457a439f08e00fc53cf01e7b5df"
+    },
+    {
+      "path": "src/fx/ice/snowflake-burst.js",
+      "sha": "26d60c74a7b850479cca215709d76e5c1514dc55"
+    },
+    {
+      "path": "src/fx/impacts/_lib.js",
+      "sha": "3f042cb27f2e07a149d6f4fbf19615f7ec5f0a93"
+    },
+    {
+      "path": "src/fx/impacts/blunt-hit.js",
+      "sha": "f21317155d505cf1a7e923da26bff062a062edeb"
+    },
+    {
+      "path": "src/fx/impacts/bullet-impact.js",
+      "sha": "88ac95432599715b51462367f11203cff207ea95"
+    },
+    {
+      "path": "src/fx/impacts/crit-hit.js",
+      "sha": "53c1bff8401b3348561b9b158044370c45e82d0c"
+    },
+    {
+      "path": "src/fx/impacts/ground-slam.js",
+      "sha": "880a0bc93a5926649f3aa5184c71a306afc271b8"
+    },
+    {
+      "path": "src/fx/impacts/heavy-landing.js",
+      "sha": "673802dfca343b212b8720838b4776998b8e4bcc"
+    },
+    {
+      "path": "src/fx/impacts/hit-flash.js",
+      "sha": "60531d91ee66d5bafa9d0850a62c7244fde7628f"
+    },
+    {
+      "path": "src/fx/impacts/hit-spark.js",
+      "sha": "970f6a183cf1f0c4c46415b634f283ffe71469db"
+    },
+    {
+      "path": "src/fx/impacts/impact-frame.js",
+      "sha": "4cd616d4d3cc442da4ce3cf3c591ca6567e83cb7"
+    },
+    {
+      "path": "src/fx/impacts/parry.js",
+      "sha": "4c9960eb8015112b20dd8118240c9920c8300b15"
+    },
+    {
+      "path": "src/fx/impacts/ricochet.js",
+      "sha": "1bc4202629dcd6399dc32e914e423e7c68e4f90a"
+    },
+    {
+      "path": "src/fx/impacts/shield-block.js",
+      "sha": "ff7cda3a61304a52d9b6ade8b6a45da95e28d9ab"
+    },
+    {
+      "path": "src/fx/index.js",
+      "sha": "c010a77c25b2cb7287698c6eee838a96083cd5d8"
+    },
+    {
+      "path": "src/fx/lightning/_lib.js",
+      "sha": "0d41c83b5f154235588d80143f2d4fd7537c4886"
+    },
+    {
+      "path": "src/fx/lightning/ball-lightning.js",
+      "sha": "4c7331701d630b3d58746c470764cc60c4459a03"
+    },
+    {
+      "path": "src/fx/lightning/chain-lightning.js",
+      "sha": "3600eb2a1e914fe08e478758092f95d28c70086e"
+    },
+    {
+      "path": "src/fx/lightning/charge-up.js",
+      "sha": "ef7c5201698fa75c0bc0ebd9abd4aad5cf238513"
+    },
+    {
+      "path": "src/fx/lightning/electrified.js",
+      "sha": "e79222e69e8344f1fd0d3bb6f40afc4ab8757692"
+    },
+    {
+      "path": "src/fx/lightning/lightning-strike.js",
+      "sha": "252bdc884409f10453f6b2c4a7d39459300a3086"
+    },
+    {
+      "path": "src/fx/lightning/plasma-ball.js",
+      "sha": "e62a656394968869264a0276372ff743199ca767"
+    },
+    {
+      "path": "src/fx/lightning/spark-arc.js",
+      "sha": "d63414f17b7ff830758cec32cd3334a14989dd1b"
+    },
+    {
+      "path": "src/fx/lightning/storm-cloud.js",
+      "sha": "ba598245265c83ec0ecaa46d0b3e6ec59e0aaebc"
+    },
+    {
+      "path": "src/fx/lightning/tesla-coil.js",
+      "sha": "0096de912155bb4faa52eb338a9abfa42b75fedd"
+    },
+    {
+      "path": "src/fx/lightning/thunderclap.js",
+      "sha": "6fac4bbf932c9ad91d01085d257b97fcdd309c09"
+    },
+    {
+      "path": "src/fx/lightning/zap-hit.js",
+      "sha": "cf5a8d0dcc8f77e70291697c63068c2a6e35cdde"
+    },
+    {
+      "path": "src/fx/melee/_lib.js",
+      "sha": "29f91783deeaf07635202ce2005fc3bee644cefb"
+    },
+    {
+      "path": "src/fx/melee/claw-swipe.js",
+      "sha": "5db5500b64e9e83c7d4f24f6bd886692f620261f"
+    },
+    {
+      "path": "src/fx/melee/dagger-flurry.js",
+      "sha": "03a5906d812a90c92533f98713497158a3deb008"
+    },
+    {
+      "path": "src/fx/melee/double-slash.js",
+      "sha": "2aa6e6e0918f3e0f3083f611be9a4c5b2bd91962"
+    },
+    {
+      "path": "src/fx/melee/hammer-smash.js",
+      "sha": "3b3ecf833b6cc2bb9502b621925f24d145403d94"
+    },
+    {
+      "path": "src/fx/melee/heavy-cleave.js",
+      "sha": "5dc5a393287494e1524774c012384187994ae26e"
+    },
+    {
+      "path": "src/fx/melee/scythe-reap.js",
+      "sha": "9757b43fda2cdacda8d527867172f0a4b7d5899e"
+    },
+    {
+      "path": "src/fx/melee/spear-sweep.js",
+      "sha": "61979356918fe7ac57e415d82b82736b23b4457d"
+    },
+    {
+      "path": "src/fx/melee/spin-slash.js",
+      "sha": "59ccca78edd514d81c9f87bbc024d55e660b4a34"
+    },
+    {
+      "path": "src/fx/melee/sword-slash.js",
+      "sha": "8e9258f474a2461b85a2992d4d58c354f27054da"
+    },
+    {
+      "path": "src/fx/melee/thrust.js",
+      "sha": "9714b58585b79ece12a4be3cb170e2d31f435d63"
+    },
+    {
+      "path": "src/fx/melee/uppercut.js",
+      "sha": "70c719906577a24a1aeb37278a85cc818d1057af"
+    },
+    {
+      "path": "src/fx/melee/whip-crack.js",
+      "sha": "92794f205ad2aa49b6e98a0abc48152570b98ec7"
+    },
+    {
+      "path": "src/fx/moves/arrow-shot.js",
+      "sha": "e1c4ae18c7e9234709f936ed31a8790c47f35100"
+    },
+    {
+      "path": "src/fx/moves/dash-strike.js",
+      "sha": "9d2c7d8aeb053fd4afc94a78bae03725912b3580"
+    },
+    {
+      "path": "src/fx/moves/earth-stomp.js",
+      "sha": "a4353ca12e4f51b6c6f0cb1f1e5978cbe6c0c877"
+    },
+    {
+      "path": "src/fx/moves/fireball-throw.js",
+      "sha": "d65a6201b1e6ca516865e3cbe47ccfc6e7e9d8e5"
+    },
+    {
+      "path": "src/fx/moves/ground-pound.js",
+      "sha": "5b8414e5deea0c57deae3ac3ac5817f6b368371c"
+    },
+    {
+      "path": "src/fx/moves/holy-smite.js",
+      "sha": "8afbf29ad647f73d7d5c16c59cf9d950c09390f7"
+    },
+    {
+      "path": "src/fx/moves/ice-lance-throw.js",
+      "sha": "08361a8fd7dc4188445161a1cf07b32b01f85825"
+    },
+    {
+      "path": "src/fx/moves/lightning-call.js",
+      "sha": "c931c21461aa00a1a0f56ddef5edcd47d819ab55"
+    },
+    {
+      "path": "src/fx/moves/meteor-call.js",
+      "sha": "434a9b5e14c9de8ed7ffa8e7f2b7fa7a35c6d7fe"
+    },
+    {
+      "path": "src/fx/moves/pistol-shots.js",
+      "sha": "c735d9726d214b98a0e209652823d290d52c4f22"
+    },
+    {
+      "path": "src/fx/moves/rocket-launcher.js",
+      "sha": "2ac031c97efbfeb715d2b796911b3c0e86bcea23"
+    },
+    {
+      "path": "src/fx/moves/sword-combo.js",
+      "sha": "4a0fbb1dad7d3c3fd063370c8cbcc01b84f981a7"
+    },
+    {
+      "path": "src/fx/nature/_lib.js",
+      "sha": "e773ce96af094c90ce01d0f476de1348d7645cb6"
+    },
+    {
+      "path": "src/fx/nature/acid-splash.js",
+      "sha": "7ba1254a8ccb99ff43b8d82266f7c906bf635eca"
+    },
+    {
+      "path": "src/fx/nature/boulder.js",
+      "sha": "3152de68568f730da12f1c597b490e0d53717e52"
+    },
+    {
+      "path": "src/fx/nature/earth-spike.js",
+      "sha": "a7db3009fc362158c31ec6c73c2cf4e7d183f887"
+    },
+    {
+      "path": "src/fx/nature/healing-bloom.js",
+      "sha": "10f753d3d97181996cba65342cfb53c65be58d21"
+    },
+    {
+      "path": "src/fx/nature/leaf-storm.js",
+      "sha": "1921a4a3e6c544d875655b2d1b84281e9c93e370"
+    },
+    {
+      "path": "src/fx/nature/poison-cloud.js",
+      "sha": "f045358ea239e5ba376008fd018b8aa7a4f4eb1f"
+    },
+    {
+      "path": "src/fx/nature/quake.js",
+      "sha": "6fc162d3ec14caca1b85916579ee36b633ad3383"
+    },
+    {
+      "path": "src/fx/nature/root-snare.js",
+      "sha": "e5516f80b0ce27b1cc30fe10dde750b526be1864"
+    },
+    {
+      "path": "src/fx/nature/spore-burst.js",
+      "sha": "38e27a8cd8d09e0a5b7b12510d1300d51c4dfaea"
+    },
+    {
+      "path": "src/fx/nature/thorns.js",
+      "sha": "2966fdd134ae493a3760bf2f1fedd3f4674c8dd9"
+    },
+    {
+      "path": "src/fx/nature/tornado.js",
+      "sha": "a2efc88293cd3be0a6a45e6b12a53d25d34304c3"
+    },
+    {
+      "path": "src/fx/nature/toxic-puddle.js",
+      "sha": "0b2c48177c9583fc2209d40d7ef2a14a39eb69d4"
+    },
+    {
+      "path": "src/fx/nature/vine-whip.js",
+      "sha": "b82ba7f3b1591cd3b32b3f18cab8eb41b9a4ac07"
+    },
+    {
+      "path": "src/fx/pickups/_lib.js",
+      "sha": "15cb3479fd36d1700b4f987ee11cbe4123e9895d"
+    },
+    {
+      "path": "src/fx/pickups/chest-open.js",
+      "sha": "ee0938cc965e3a4073b98a3e51112affce4a0ecb"
+    },
+    {
+      "path": "src/fx/pickups/coin-spin.js",
+      "sha": "81cb46352223a77eb73e1de2f92694bacb1e8021"
+    },
+    {
+      "path": "src/fx/pickups/collect-burst.js",
+      "sha": "8c5771f6c5125f133a103c4643cc0d1d6af5fbee"
+    },
+    {
+      "path": "src/fx/pickups/crystal-shard.js",
+      "sha": "71f91a951640f64a9c3b5eaaf007572ac482984c"
+    },
+    {
+      "path": "src/fx/pickups/gem-spin.js",
+      "sha": "b273032bb36b755d44fa87359dec2a9837740dcf"
+    },
+    {
+      "path": "src/fx/pickups/heart-pickup.js",
+      "sha": "ef219856394e131ae12eb51dd7dd7a77660f7133"
+    },
+    {
+      "path": "src/fx/pickups/key-glint.js",
+      "sha": "54c0c595030bb998d8d29298b6eb3ebd12a7ec83"
+    },
+    {
+      "path": "src/fx/pickups/loot-beam.js",
+      "sha": "0963f9ff1c7ff97a124d27a0cc8e247e7924c138"
+    },
+    {
+      "path": "src/fx/pickups/potion.js",
+      "sha": "bfefca9ad8b6f82a00c7f29b9c854887986b5aca"
+    },
+    {
+      "path": "src/fx/pickups/power-star.js",
+      "sha": "03a5ab9dcb67f0ae26ece7ae9fbb36b81d89b711"
+    },
+    {
+      "path": "src/fx/pickups/xp-orb.js",
+      "sha": "f7bfafc47760962b0d603d1cce0f0d69dcc751e6"
+    },
+    {
+      "path": "src/fx/projectiles/_lib.js",
+      "sha": "eaef81554766de64940d45946d5c07fe59d20ab7"
+    },
+    {
+      "path": "src/fx/projectiles/arrow.js",
+      "sha": "943676edad93d3bea42e4d6f1eb2533e590b7ea2"
+    },
+    {
+      "path": "src/fx/projectiles/bullet-tracer.js",
+      "sha": "75f195d979ad43f1ec19046297fe7e5af1e77f47"
+    },
+    {
+      "path": "src/fx/projectiles/cannonball.js",
+      "sha": "d68a7c99e5b0b158bf7b162c76d004afabc1530a"
+    },
+    {
+      "path": "src/fx/projectiles/energy-disc.js",
+      "sha": "e46a4755323461d7918f479da876af02302291e4"
+    },
+    {
+      "path": "src/fx/projectiles/flare.js",
+      "sha": "12e06947eed1751bdc0efd88e6b849b5f04d4e31"
+    },
+    {
+      "path": "src/fx/projectiles/homing-missile.js",
+      "sha": "97b9950edf53b3a8cb804ea0027ecea2c1f0dc4d"
+    },
+    {
+      "path": "src/fx/projectiles/laser-bolt.js",
+      "sha": "a503d9efc797355af967151e4edf957b3d00f280"
+    },
+    {
+      "path": "src/fx/projectiles/magic-missile.js",
+      "sha": "f82a9e8405efda2e78f2288d3cb6a5480dca3256"
+    },
+    {
+      "path": "src/fx/projectiles/muzzle-pistol.js",
+      "sha": "44e57bc92b0f17d9f74c16f68ff10c6baa6f7fce"
+    },
+    {
+      "path": "src/fx/projectiles/muzzle-shotgun.js",
+      "sha": "248ae511a1090ab181c0a9835bb6af9426233553"
+    },
+    {
+      "path": "src/fx/projectiles/muzzle-smg.js",
+      "sha": "f0c6a5696fe02db15ab2480bef7e1b7455dcef39"
+    },
+    {
+      "path": "src/fx/projectiles/plasma-shot.js",
+      "sha": "2e1a0f5b74cf80a7e98ae53500c644908d844edc"
+    },
+    {
+      "path": "src/fx/projectiles/rocket.js",
+      "sha": "f932d473c6560de8f5c78fb1ef60bd98602a6615"
+    },
+    {
+      "path": "src/fx/scifi/_lib.js",
+      "sha": "1c8b8fe0b500b3348a9b1f6536cd2bb9ad9f52a8"
+    },
+    {
+      "path": "src/fx/scifi/emp-blast.js",
+      "sha": "77abd6a70a1981082d5bb7da665563fae4756128"
+    },
+    {
+      "path": "src/fx/scifi/energy-core.js",
+      "sha": "e0b4c8f981aee6a9630c9810f717cb7a25684e67"
+    },
+    {
+      "path": "src/fx/scifi/force-field.js",
+      "sha": "2297fe09c7ab0673a0b21af19301730e2eb85acd"
+    },
+    {
+      "path": "src/fx/scifi/glitch.js",
+      "sha": "55da9344b2f859b41d3970892c50d8daec636bf6"
+    },
+    {
+      "path": "src/fx/scifi/hologram.js",
+      "sha": "e7d1ccd898099f842c303e7a8caa7b9a6aa8d211"
+    },
+    {
+      "path": "src/fx/scifi/jetpack.js",
+      "sha": "922e0d1df966cbb7758a494d6c11cda60c9b4c7b"
+    },
+    {
+      "path": "src/fx/scifi/laser-grid.js",
+      "sha": "88ba1f3225d30dea6ec6ed64690e7eb7a4cf94bb"
+    },
+    {
+      "path": "src/fx/scifi/scanner.js",
+      "sha": "84d1d0e2cd5ca81e15025dcea84db441cadab3cc"
+    },
+    {
+      "path": "src/fx/scifi/teleporter-pad.js",
+      "sha": "17aa24bb28e13edf7a8a429b3a5aba7e5cad8eee"
+    },
+    {
+      "path": "src/fx/scifi/tractor-beam.js",
+      "sha": "120b64de16152b0598d963091f71d019bf8c0115"
+    },
+    {
+      "path": "src/fx/scifi/warp-in.js",
+      "sha": "5c9ed185a8cebac8f1182f546db29c524f6fe28b"
+    },
+    {
+      "path": "src/fx/scifi/warp-out.js",
+      "sha": "11d867a9736ea97afe05593cbe613bc402480c36"
+    },
+    {
+      "path": "src/fx/shadow/_lib.js",
+      "sha": "656b0e570c2ac558f9ad04a7f410c81e1f9687f4"
+    },
+    {
+      "path": "src/fx/shadow/black-hole.js",
+      "sha": "d2a0e717b21dbb38198a246bef8f5505f421137f"
+    },
+    {
+      "path": "src/fx/shadow/curse.js",
+      "sha": "882315bee79ce16c16f956a0a15a80c3d3a906c3"
+    },
+    {
+      "path": "src/fx/shadow/dark-explosion.js",
+      "sha": "0a088c0633e271d5a02a231c7ab61a0b6cf4a0b0"
+    },
+    {
+      "path": "src/fx/shadow/eclipse.js",
+      "sha": "c2470b8ce9331480f33a35afbda4dbc409ded984"
+    },
+    {
+      "path": "src/fx/shadow/grasping-hands.js",
+      "sha": "e47ad0b135d79fbaa2bef7e4d88799c180b30ff8"
+    },
+    {
+      "path": "src/fx/shadow/hex-sigil.js",
+      "sha": "8452c54739a41e7dce5a253dc6932391b65fde2c"
+    },
+    {
+      "path": "src/fx/shadow/life-steal.js",
+      "sha": "939c1776e763ff4e387fc325d9529a042e027650"
+    },
+    {
+      "path": "src/fx/shadow/necro-skulls.js",
+      "sha": "fbc8262598a79bd193eab4ecac05d60829065e91"
+    },
+    {
+      "path": "src/fx/shadow/shadow-flames.js",
+      "sha": "e1228257fcc5af65dba6014b69afcf6f6b287bac"
+    },
+    {
+      "path": "src/fx/shadow/shadow-tendrils.js",
+      "sha": "52783a8329acb2f00707bda6c349cf7876ce0266"
+    },
+    {
+      "path": "src/fx/shadow/soul-drain.js",
+      "sha": "180649ad575376cfec76edaf4943a8274ae9a5fd"
+    },
+    {
+      "path": "src/fx/shadow/void-orb.js",
+      "sha": "63f0c0f52086f7a1d86b3a36c3e14ee68692ec6a"
+    },
+    {
+      "path": "src/fx/spawn/_lib.js",
+      "sha": "2c26ec1dc73b720071c7f0ccb97e27289a7a54a3"
+    },
+    {
+      "path": "src/fx/spawn/coin-drop.js",
+      "sha": "82bdaf0e54c7d35a6f400ce69839830121e82415"
+    },
+    {
+      "path": "src/fx/spawn/disintegrate.js",
+      "sha": "adaf697b58c9a48d8f6ea83157dccda897e824c6"
+    },
+    {
+      "path": "src/fx/spawn/dissolve-burn.js",
+      "sha": "22b57740bdec7b747ad75baf7ab3c24e16154739"
+    },
+    {
+      "path": "src/fx/spawn/egg-hatch.js",
+      "sha": "960bba8ae71947f0cfca35e45af4aa85626d0fb8"
+    },
+    {
+      "path": "src/fx/spawn/poof.js",
+      "sha": "21beaeee7a5b83d79bae533862b967f901312956"
+    },
+    {
+      "path": "src/fx/spawn/respawn-beam.js",
+      "sha": "038aa83e07da2aa3f1b801a9f2682307f2c73998"
+    },
+    {
+      "path": "src/fx/spawn/shatter-death.js",
+      "sha": "60097322821f0d07804f2e0a9d2a2f26d7e72a04"
+    },
+    {
+      "path": "src/fx/spawn/soul-rise.js",
+      "sha": "9521e7525defda730f201405173d38754923cd41"
+    },
+    {
+      "path": "src/fx/spawn/spawn-portal.js",
+      "sha": "c7130998e522af99d0b88316dfd4d742e9c3177a"
+    },
+    {
+      "path": "src/fx/spawn/summon-rise.js",
+      "sha": "aede4ab2dcbf7898e206280174ccb192f4228e9d"
+    },
+    {
+      "path": "src/fx/status/_lib.js",
+      "sha": "107093a6662c32009aed9882956163caf35a185d"
+    },
+    {
+      "path": "src/fx/status/bleeding.js",
+      "sha": "5c01160f6e1795dc12704834c34654d1644cef2f"
+    },
+    {
+      "path": "src/fx/status/burning.js",
+      "sha": "d28f251c8bfae13cd11d1179c849cdbf6f0d7d69"
+    },
+    {
+      "path": "src/fx/status/charmed.js",
+      "sha": "4b49304cc5da9538e1adfbf880d20c04e9a8e975"
+    },
+    {
+      "path": "src/fx/status/confused.js",
+      "sha": "127974548645b8685f14f2b8c980cf2f88316fe6"
+    },
+    {
+      "path": "src/fx/status/cursed.js",
+      "sha": "00358c595ae03f09fca39d379fdd13d17f6f8a1e"
+    },
+    {
+      "path": "src/fx/status/frozen.js",
+      "sha": "7ef8ecedc74ea65e71899349d414192b1e8b2126"
+    },
+    {
+      "path": "src/fx/status/haste.js",
+      "sha": "d2aed910ebdf4925e2bbd2568af5aa6d049e88d6"
+    },
+    {
+      "path": "src/fx/status/petrified.js",
+      "sha": "5f7d7600c79fc1497d9702aa7d2f66f9575996c0"
+    },
+    {
+      "path": "src/fx/status/poisoned.js",
+      "sha": "8ea6920947faa3e5ad16305817dffdb51e6e1671"
+    },
+    {
+      "path": "src/fx/status/rage.js",
+      "sha": "171b95ca44b8303b29e172f9ad24058948b2b731"
+    },
+    {
+      "path": "src/fx/status/sleep.js",
+      "sha": "c0048fcc7b959011fccee93dce8a5ed24be3f213"
+    },
+    {
+      "path": "src/fx/status/slowed.js",
+      "sha": "6ca80b739ec54f9acfe7347480042d4fe9e71785"
+    },
+    {
+      "path": "src/fx/status/stunned.js",
+      "sha": "a780fbc3549a49fa8d20d01e5eb8c27c3d6e4f09"
+    },
+    {
+      "path": "src/fx/transitions/_lib.js",
+      "sha": "fe5cf27701e8bb771fab30bd5e2c06435d4e299c"
+    },
+    {
+      "path": "src/fx/transitions/blinds.js",
+      "sha": "44a8b6d24b636bf1ace8fd91b584a2987aa41de7"
+    },
+    {
+      "path": "src/fx/transitions/burn-away.js",
+      "sha": "3b2f70286158e1a568f0dd1f84a0592abc9a0077"
+    },
+    {
+      "path": "src/fx/transitions/crt-off.js",
+      "sha": "7320aea552f34cb932908078583ad52d4a1a94b5"
+    },
+    {
+      "path": "src/fx/transitions/diamond-wipe.js",
+      "sha": "518680ebe5412e8684915bf2a5c7314ddc37a59e"
+    },
+    {
+      "path": "src/fx/transitions/glitch-wipe.js",
+      "sha": "f6cfb7df143c02e540d169b564b9bbb0dbd9964d"
+    },
+    {
+      "path": "src/fx/transitions/iris.js",
+      "sha": "022b4ba67998bba6943eb6aefbc748ec23df8868"
+    },
+    {
+      "path": "src/fx/transitions/pixel-dissolve.js",
+      "sha": "63ce05499f0ccf8561092f03dcae9f03189ba57f"
+    },
+    {
+      "path": "src/fx/transitions/shatter-wipe.js",
+      "sha": "ab23b72a030c19a49243b179b18069c867d90996"
+    },
+    {
+      "path": "src/fx/transitions/slash-wipe.js",
+      "sha": "f8d811858b6a43e03eefddb36ea52799d4108406"
+    },
+    {
+      "path": "src/fx/transitions/star-iris.js",
+      "sha": "b46315a107bab00a2a2e37f2a202ed23251e81a2"
+    },
+    {
+      "path": "src/fx/ui/_lib.js",
+      "sha": "86cbc0d222a52738e693aa14d750eb34182403f2"
+    },
+    {
+      "path": "src/fx/ui/achievement.js",
+      "sha": "982a080f01c33b3ad2d543e779f6412e1caa87a1"
+    },
+    {
+      "path": "src/fx/ui/coin-collect.js",
+      "sha": "7bed56e70ec15538b8147f3f8caf16fd2811993b"
+    },
+    {
+      "path": "src/fx/ui/combo-counter.js",
+      "sha": "2aaf9f4d38a5d88e4eddd76a317b23399b34299e"
+    },
+    {
+      "path": "src/fx/ui/confetti.js",
+      "sha": "735fd4e6ee4ab5ef68812cad339c59cfbc4332cb"
+    },
+    {
+      "path": "src/fx/ui/countdown.js",
+      "sha": "6cb827c32e483e0d1eb69e428d59f48c0a43e64c"
+    },
+    {
+      "path": "src/fx/ui/crit-number.js",
+      "sha": "4c6978bf8a288cb492c58d0680ace623d9d8d567"
+    },
+    {
+      "path": "src/fx/ui/damage-number.js",
+      "sha": "3f026840a40959e48e9ca9a8d1da59734157a1f6"
+    },
+    {
+      "path": "src/fx/ui/exclamation.js",
+      "sha": "d5dd3a8444b0b8b459f464e707a91920e0bf3095"
+    },
+    {
+      "path": "src/fx/ui/health-bar-hit.js",
+      "sha": "14c43a3c6f6b7f46b0827798ccb27c8aed5e23ce"
+    },
+    {
+      "path": "src/fx/ui/heart-lost.js",
+      "sha": "dc4ffa2c6ab6c786823cdddf7d4d83752cd66dd3"
+    },
+    {
+      "path": "src/fx/ui/level-up.js",
+      "sha": "073eb7535ddfa4500150474847085e0c4a7ee62d"
+    },
+    {
+      "path": "src/fx/ui/quest-complete.js",
+      "sha": "7d83738756ff4ee17a7d4e80e9fd28fff9246e41"
+    },
+    {
+      "path": "src/fx/water/_lib.js",
+      "sha": "86fed1780753d72210930aa703a308e477987edf"
+    },
+    {
+      "path": "src/fx/water/bubbles.js",
+      "sha": "6ba609c5b2ee85100e075a515c75264678ec1911"
+    },
+    {
+      "path": "src/fx/water/drip.js",
+      "sha": "ac2ede2ee25d1751b63f9f1cc6d4a75eb686e812"
+    },
+    {
+      "path": "src/fx/water/fountain.js",
+      "sha": "a18a8879e80d33752169912d064bcf8d8a2b6db6"
+    },
+    {
+      "path": "src/fx/water/geyser.js",
+      "sha": "2840d89db09c6745a055d6dcc9238617dcc27953"
+    },
+    {
+      "path": "src/fx/water/rain-splash.js",
+      "sha": "fc0377abdffa8813dd7b738c614238958149c5e6"
+    },
+    {
+      "path": "src/fx/water/ripples.js",
+      "sha": "d3352f45bc85a93811e0aa628c49cbc36cc5c027"
+    },
+    {
+      "path": "src/fx/water/splash.js",
+      "sha": "abb52499d80bcb461a33e8a94f2355dfe90c2bcc"
+    },
+    {
+      "path": "src/fx/water/water-jet.js",
+      "sha": "8bb38c280df5adefa7909eb8570d03407af4b1b2"
+    },
+    {
+      "path": "src/fx/water/water-orb.js",
+      "sha": "eca9dab09cf0ac79ba80e6f6afb266756d19fe2f"
+    },
+    {
+      "path": "src/fx/water/waterfall.js",
+      "sha": "573def3e9b4e153aab3c58e5e931241cb0915f67"
+    },
+    {
+      "path": "src/fx/water/wave-crash.js",
+      "sha": "4a22114c1c405fd0c905b5bdad91eb2418808004"
+    },
+    {
+      "path": "src/fx/water/whirlpool.js",
+      "sha": "e1772bb1a31c07713612d34e9a64914486888cfc"
+    },
+    {
+      "path": "src/fx/weather/_lib.js",
+      "sha": "717277559cd687a9af0631e83bc9045ff1d5121d"
+    },
+    {
+      "path": "src/fx/weather/aurora.js",
+      "sha": "64b81a2be72cb56f49bc9c37ab228f54322d64f2"
+    },
+    {
+      "path": "src/fx/weather/blizzard.js",
+      "sha": "c906269a2a79d4678a323741c8138a0bd447e51f"
+    },
+    {
+      "path": "src/fx/weather/cherry-blossoms.js",
+      "sha": "768097439f72fb08a6a6f969e65761321d9bc763"
+    },
+    {
+      "path": "src/fx/weather/clouds.js",
+      "sha": "eb7454a67fbef6fd3f32f71c08f6cde8f1df4db3"
+    },
+    {
+      "path": "src/fx/weather/falling-leaves.js",
+      "sha": "d758e3b1cee0272df06280d928cde1d3e6452bf0"
+    },
+    {
+      "path": "src/fx/weather/fireflies.js",
+      "sha": "25511900cc17f40531342253430ea82206f2db98"
+    },
+    {
+      "path": "src/fx/weather/fog.js",
+      "sha": "68785cbc590bd950fd124ba18be6f85f62a4cf3c"
+    },
+    {
+      "path": "src/fx/weather/god-rays.js",
+      "sha": "5902f1d614ec621a4516cf3bccfa5d1a8ecb3c5a"
+    },
+    {
+      "path": "src/fx/weather/rain.js",
+      "sha": "20fe94ba69d0262151a65e38ff8a0bf90b043b75"
+    },
+    {
+      "path": "src/fx/weather/shooting-stars.js",
+      "sha": "292d44454a83d069beb930edabd68c9f0ac0ef82"
+    },
+    {
+      "path": "src/fx/weather/snow.js",
+      "sha": "b1307a4f4a41ea4efaada42895d2f3df1561afa8"
+    },
+    {
+      "path": "src/fx/weather/storm.js",
+      "sha": "b6fb1b121b23df7400fdefbe653d5267ff6a1e55"
+    },
+    {
+      "path": "tools/act.mjs",
+      "sha": "813f742f14e247fe675f63bfa1fc16db5668471d"
+    },
+    {
+      "path": "tools/build-gallery.mjs",
+      "sha": "0153dffcd7f77f286c65c9b5f9706b5bcade3c26"
+    },
+    {
+      "path": "tools/check.mjs",
+      "sha": "2fbcfdc715e34f6f19284b9cd47860396e657df5"
+    },
+    {
+      "path": "tools/compare.mjs",
+      "sha": "61cdda7e3a7d4e3424e24ecbbc82f12e7f15e2d6"
+    },
+    {
+      "path": "tools/index.mjs",
+      "sha": "9b377ae339c75d7f591f4ca226c0b5c12e06f3bc"
+    },
+    {
+      "path": "tools/lib/fxlib.mjs",
+      "sha": "5c6231641eb9baa04b0d9e354cebae3ae508d37c"
+    },
+    {
+      "path": "tools/lib/png.mjs",
+      "sha": "df029bbb942106fe710311c5431a3605340eb588"
+    },
+    {
+      "path": "tools/list.mjs",
+      "sha": "540fced00e3e0fd9bcfd787ab74085627e843a25"
+    },
+    {
+      "path": "tools/montage.mjs",
+      "sha": "7d2d2a2fa950779ef6c5b55fcdfa5d52e2ff7c0d"
+    },
+    {
+      "path": "tools/new.mjs",
+      "sha": "459e5b9a44c53002d86ad299c276de1999929270"
+    },
+    {
+      "path": "tools/render.mjs",
+      "sha": "317039723992434bfabfe872e28284c2e0736e13"
+    },
+    {
+      "path": "tools/serve.mjs",
+      "sha": "d7f8af6cc47c66f24fc07f0e3efcceb6af253863"
+    },
+    {
+      "path": "tools/sheets.mjs",
+      "sha": "63ac79ee0a2026e8cce6d17204db0cfff50573d0"
+    }
+  ]
+}

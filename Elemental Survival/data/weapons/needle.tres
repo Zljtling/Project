@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="ESWeaponSpec" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/combat/weapon_spec.gd" id="1"]
+[resource]
+script = ExtResource("1")
+title = "追风针"
+kind = "bolt"
+damage = 15.0
+interval = 0.32
+reach = 440.0
+color = Color(0.4, 0.92, 0.91, 1)

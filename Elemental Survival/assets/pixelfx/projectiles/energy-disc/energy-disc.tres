@@ -1,0 +1,63 @@
+[gd_resource type="SpriteFrames" load_steps=17 format=3]
+[ext_resource type="Texture2D" path="res://assets/pixelfx/projectiles/energy-disc/energy-disc.png" id="1"]
+[sub_resource type="AtlasTexture" id="Frame_0"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 120, 52)
+[sub_resource type="AtlasTexture" id="Frame_1"]
+atlas = ExtResource("1")
+region = Rect2(120, 0, 120, 52)
+[sub_resource type="AtlasTexture" id="Frame_2"]
+atlas = ExtResource("1")
+region = Rect2(240, 0, 120, 52)
+[sub_resource type="AtlasTexture" id="Frame_3"]
+atlas = ExtResource("1")
+region = Rect2(0, 52, 120, 52)
+[sub_resource type="AtlasTexture" id="Frame_4"]
+atlas = ExtResource("1")
+region = Rect2(120, 52, 120, 52)
+[sub_resource type="AtlasTexture" id="Frame_5"]
+atlas = ExtResource("1")
+region = Rect2(240, 52, 120, 52)
+[sub_resource type="AtlasTexture" id="Frame_6"]
+atlas = ExtResource("1")
+region = Rect2(0, 104, 120, 52)
+[sub_resource type="AtlasTexture" id="Frame_7"]
+atlas = ExtResource("1")
+region = Rect2(120, 104, 120, 52)
+[sub_resource type="AtlasTexture" id="Frame_8"]
+atlas = ExtResource("1")
+region = Rect2(240, 104, 120, 52)
+[sub_resource type="AtlasTexture" id="Frame_9"]
+atlas = ExtResource("1")
+region = Rect2(0, 156, 120, 52)
+[sub_resource type="AtlasTexture" id="Frame_10"]
+atlas = ExtResource("1")
+region = Rect2(120, 156, 120, 52)
+[sub_resource type="AtlasTexture" id="Frame_11"]
+atlas = ExtResource("1")
+region = Rect2(240, 156, 120, 52)
+[sub_resource type="AtlasTexture" id="Frame_12"]
+atlas = ExtResource("1")
+region = Rect2(0, 208, 120, 52)
+[sub_resource type="AtlasTexture" id="Frame_13"]
+atlas = ExtResource("1")
+region = Rect2(120, 208, 120, 52)
+[sub_resource type="AtlasTexture" id="Frame_14"]
+atlas = ExtResource("1")
+region = Rect2(240, 208, 120, 52)
+[resource]
+animations = [{"frames": [{"duration": 0.99, "texture": SubResource("Frame_0")},
+{"duration": 0.99, "texture": SubResource("Frame_1")},
+{"duration": 0.99, "texture": SubResource("Frame_2")},
+{"duration": 0.99, "texture": SubResource("Frame_3")},
+{"duration": 0.99, "texture": SubResource("Frame_4")},
+{"duration": 0.99, "texture": SubResource("Frame_5")},
+{"duration": 0.99, "texture": SubResource("Frame_6")},
+{"duration": 0.99, "texture": SubResource("Frame_7")},
+{"duration": 0.99, "texture": SubResource("Frame_8")},
+{"duration": 0.99, "texture": SubResource("Frame_9")},
+{"duration": 0.99, "texture": SubResource("Frame_10")},
+{"duration": 0.99, "texture": SubResource("Frame_11")},
+{"duration": 0.99, "texture": SubResource("Frame_12")},
+{"duration": 0.99, "texture": SubResource("Frame_13")},
+{"duration": 0.99, "texture": SubResource("Frame_14")}], "loop": true, "name": &"default", "speed": 30}]

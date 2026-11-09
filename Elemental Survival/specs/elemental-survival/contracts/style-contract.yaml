@@ -1,0 +1,31 @@
+status: implemented-pending-user-review
+platform: Windows keyboard-mouse
+canvas: [1280, 800]
+references: references/ui_forest/2026-11-02
+style: original forest fieldbook, warm parchment, wood edges, sage green and illustrated object icons
+colors:
+  background: '#ede2bd'
+  recessed: '#f1e7cb'
+  button: '#e6d6af'
+  selected: '#c6d5b0'
+  accent: '#69805b'
+  text: '#493f30'
+  disabled: '#8c8573'
+geometry:
+  radius: 9
+  border: 1
+  button_min_height: 38
+  card: [128, 154]
+  card_icon: 68
+  skill_icon: 52
+  source_icon: 128
+  paper_nine_slice_margin: 40
+interaction:
+  inventory_and_forge_pause: true
+  equipped_materials_require_explicit_choice: true
+  destructive_combine_requires_confirm: true
+  recipe_before_inventory: true
+  forge_layout: fixed recipe column and independently scrolling inventory column
+  primary_action: dark forest green with cream text
+  cooldown_and_disabled_states_are_visible: true
+rendering: native Godot Control/Theme and original SVG assets, not generated UI screenshots
